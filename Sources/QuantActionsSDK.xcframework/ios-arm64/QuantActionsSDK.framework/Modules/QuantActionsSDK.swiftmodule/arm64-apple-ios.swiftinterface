@@ -1,0 +1,173 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name QuantActionsSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import FleksyAppsCore
+import FleksyKeyboardSDK
+import Foundation
+import OSLog
+@_exported import QuantActionsSDK
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+public struct BasicInfo : Swift.Codable {
+  public var yearOfBirth: Swift.Int
+  public var gender: QuantActionsSDK.Gender
+  public var selfDeclaredHealthy: Swift.Bool
+  public init(yearOfBirth: Swift.Int = 0, gender: QuantActionsSDK.Gender = .unknown, selfDeclaredHealthy: Swift.Bool = false)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SubscriptionWithQuestionnaires {
+  public let cohort: QuantActionsSDK.Cohort
+  public let questionnaires: [QuantActionsSDK.Questionnaire]
+  public let subscriptionID: Swift.String
+  public let tapDeviceIDs: [Swift.String]
+  public let premiumFeaturesTTL: Swift.Int
+}
+public struct Cohort {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let privacyPolicy: Swift.String
+  public let canWidthdraw: Swift.Bool
+}
+public struct Questionnaire {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let description: Swift.String
+  public let code: Swift.String
+  public let cohortID: Swift.String
+  public let body: Swift.String
+}
+public enum Gender : Swift.Int, Swift.Codable, Swift.CaseIterable {
+  case male
+  case female
+  case other
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [QuantActionsSDK.Gender]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [QuantActionsSDK.Gender] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct JournalEntry : Swift.Identifiable, Swift.Hashable {
+  public let id: Swift.String
+  public var date: Foundation.Date
+  public var note: Swift.String
+  public var events: [QuantActionsSDK.JournalEntryEvent]
+  public init(date: Foundation.Date, note: Swift.String, events: [QuantActionsSDK.JournalEntryEvent])
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: QuantActionsSDK.JournalEntry, b: QuantActionsSDK.JournalEntry) -> Swift.Bool
+  public typealias ID = Swift.String
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct JournalEntryEvent : Swift.Identifiable, Swift.Hashable {
+  public let id: Swift.String
+  public var eventKindID: Swift.String
+  public var rating: Swift.Int
+  public init(eventKindID: Swift.String, rating: Swift.Int)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: QuantActionsSDK.JournalEntryEvent, b: QuantActionsSDK.JournalEntryEvent) -> Swift.Bool
+  public typealias ID = Swift.String
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct JournalEventKind : Swift.Hashable {
+  public let id: Swift.String
+  public let publicName: Swift.String
+  public let iconName: Swift.String
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: QuantActionsSDK.JournalEventKind, b: QuantActionsSDK.JournalEventKind) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class QAKeyboardViewController : FleksyKeyboardSDK.FKKeyboardViewController {
+  @_Concurrency.MainActor(unsafe) @objc override public var appIcon: UIKit.UIImage? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) override public func createConfiguration() -> FleksyKeyboardSDK.KeyboardConfiguration
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func dataCollection(_ data: Swift.String, sessionId: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func triggerOpenApp()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct Subscription {
+  public let id: Swift.String
+  public let deviceIDs: [Swift.String]
+  public let cohortID: Swift.String
+  public let cohortName: Swift.String
+  public let premiumFeaturesTTL: Swift.Int
+}
+public struct QA {
+  public static let shared: QuantActionsSDK.QA
+  public var isDeviceRegistered: Swift.Bool {
+    get
+  }
+  public var deviceID: Swift.String {
+    get
+  }
+  public var isDataCollectionRunning: Swift.Bool {
+    get
+  }
+  public var isKeyboardAdded: Swift.Bool? {
+    get
+  }
+  #if compiler(>=5.3) && $AsyncAwait
+  public func setup(basicInfo: QuantActionsSDK.BasicInfo = BasicInfo()) async throws -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func subscribe(participationID: Swift.String) async throws -> QuantActionsSDK.SubscriptionWithQuestionnaires
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func leaveCohort(participationID: Swift.String) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func subscription() async throws -> QuantActionsSDK.Subscription?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func update(basicInfo: QuantActionsSDK.BasicInfo) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func syncData() async throws
+  #endif
+  public func tapEvents(in interval: Foundation.DateInterval) -> [Foundation.Date]
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendNote(text: Swift.String) async throws
+  #endif
+  public func pauseDataCollection()
+  public func resumeDataCollection()
+}
+extension QuantActionsSDK.QA {
+  public func journalEventKinds() -> [QuantActionsSDK.JournalEventKind]
+  public func journalEntries() -> [QuantActionsSDK.JournalEntry]
+  public func saveJournalEntry(journalEntry: QuantActionsSDK.JournalEntry) throws -> QuantActionsSDK.JournalEntry
+  public func deleteJournalEntry(byID id: Swift.String) throws
+}
+public struct QAError {
+  public let description: Swift.String
+  public let reason: Swift.String?
+}
+extension QuantActionsSDK.QAError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var failureReason: Swift.String? {
+    get
+  }
+}
+extension QuantActionsSDK.Gender : Swift.Equatable {}
+extension QuantActionsSDK.Gender : Swift.Hashable {}
+extension QuantActionsSDK.Gender : Swift.RawRepresentable {}
