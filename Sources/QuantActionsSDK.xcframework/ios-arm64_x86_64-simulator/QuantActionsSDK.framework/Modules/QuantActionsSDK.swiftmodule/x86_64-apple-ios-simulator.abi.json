@@ -13,6 +13,23 @@
       },
       {
         "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
         "name": "OSLog",
         "printedName": "OSLog",
         "declKind": "Import",
@@ -57,6 +74,117 @@
         "moduleName": "QuantActionsSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ScreenTimeAggregateElement",
+        "printedName": "ScreenTimeAggregateElement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "screenTime",
+            "printedName": "screenTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK26ScreenTimeAggregateElementV06screenE0Sdvp",
+            "mangledName": "$s15QuantActionsSDK26ScreenTimeAggregateElementV06screenE0Sdvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK26ScreenTimeAggregateElementV06screenE0Sdvg",
+                "mangledName": "$s15QuantActionsSDK26ScreenTimeAggregateElementV06screenE0Sdvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "socialScreenTime",
+            "printedName": "socialScreenTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK26ScreenTimeAggregateElementV06socialdE0Sdvp",
+            "mangledName": "$s15QuantActionsSDK26ScreenTimeAggregateElementV06socialdE0Sdvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK26ScreenTimeAggregateElementV06socialdE0Sdvg",
+                "mangledName": "$s15QuantActionsSDK26ScreenTimeAggregateElementV06socialdE0Sdvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15QuantActionsSDK26ScreenTimeAggregateElementV",
+        "mangledName": "$s15QuantActionsSDK26ScreenTimeAggregateElementV",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DataPointElement",
+            "printedName": "DataPointElement",
+            "usr": "s:15QuantActionsSDK16DataPointElementP",
+            "mangledName": "$s15QuantActionsSDK16DataPointElementP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -69,6 +197,141 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataPoint",
+        "printedName": "DataPoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK9DataPointV4date10Foundation4DateVvp",
+            "mangledName": "$s15QuantActionsSDK9DataPointV4date10Foundation4DateVvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK9DataPointV4date10Foundation4DateVvg",
+                "mangledName": "$s15QuantActionsSDK9DataPointV4date10Foundation4DateVvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : QuantActionsSDK.DataPointElement>",
+                "sugared_genericSig": "<T where T : QuantActionsSDK.DataPointElement>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "element",
+            "printedName": "element",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK9DataPointV7elementxSgvp",
+            "mangledName": "$s15QuantActionsSDK9DataPointV7elementxSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK9DataPointV7elementxSgvg",
+                "mangledName": "$s15QuantActionsSDK9DataPointV7elementxSgvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : QuantActionsSDK.DataPointElement>",
+                "sugared_genericSig": "<T where T : QuantActionsSDK.DataPointElement>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15QuantActionsSDK9DataPointV",
+        "mangledName": "$s15QuantActionsSDK9DataPointV",
+        "moduleName": "QuantActionsSDK",
+        "genericSig": "<τ_0_0 where τ_0_0 : QuantActionsSDK.DataPointElement>",
+        "sugared_genericSig": "<T where T : QuantActionsSDK.DataPointElement>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataPointElement",
+        "printedName": "DataPointElement",
+        "declKind": "Protocol",
+        "usr": "s:15QuantActionsSDK16DataPointElementP",
+        "mangledName": "$s15QuantActionsSDK16DataPointElementP",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -107,6 +370,579 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrendElement",
+        "printedName": "TrendElement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "difference2Weeks",
+            "printedName": "difference2Weeks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK12TrendElementV16difference2WeeksSdSgvp",
+            "mangledName": "$s15QuantActionsSDK12TrendElementV16difference2WeeksSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK12TrendElementV16difference2WeeksSdSgvg",
+                "mangledName": "$s15QuantActionsSDK12TrendElementV16difference2WeeksSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statistic2Weeks",
+            "printedName": "statistic2Weeks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK12TrendElementV15statistic2WeeksSdSgvp",
+            "mangledName": "$s15QuantActionsSDK12TrendElementV15statistic2WeeksSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK12TrendElementV15statistic2WeeksSdSgvg",
+                "mangledName": "$s15QuantActionsSDK12TrendElementV15statistic2WeeksSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "significance2Weeks",
+            "printedName": "significance2Weeks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK12TrendElementV18significance2WeeksSdSgvp",
+            "mangledName": "$s15QuantActionsSDK12TrendElementV18significance2WeeksSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK12TrendElementV18significance2WeeksSdSgvg",
+                "mangledName": "$s15QuantActionsSDK12TrendElementV18significance2WeeksSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "difference6Weeks",
+            "printedName": "difference6Weeks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK12TrendElementV16difference6WeeksSdSgvp",
+            "mangledName": "$s15QuantActionsSDK12TrendElementV16difference6WeeksSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK12TrendElementV16difference6WeeksSdSgvg",
+                "mangledName": "$s15QuantActionsSDK12TrendElementV16difference6WeeksSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statistic6Weeks",
+            "printedName": "statistic6Weeks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK12TrendElementV15statistic6WeeksSdSgvp",
+            "mangledName": "$s15QuantActionsSDK12TrendElementV15statistic6WeeksSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK12TrendElementV15statistic6WeeksSdSgvg",
+                "mangledName": "$s15QuantActionsSDK12TrendElementV15statistic6WeeksSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "significance6Weeks",
+            "printedName": "significance6Weeks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK12TrendElementV18significance6WeeksSdSgvp",
+            "mangledName": "$s15QuantActionsSDK12TrendElementV18significance6WeeksSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK12TrendElementV18significance6WeeksSdSgvg",
+                "mangledName": "$s15QuantActionsSDK12TrendElementV18significance6WeeksSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "difference1Year",
+            "printedName": "difference1Year",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK12TrendElementV15difference1YearSdSgvp",
+            "mangledName": "$s15QuantActionsSDK12TrendElementV15difference1YearSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK12TrendElementV15difference1YearSdSgvg",
+                "mangledName": "$s15QuantActionsSDK12TrendElementV15difference1YearSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statistic1Year",
+            "printedName": "statistic1Year",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK12TrendElementV14statistic1YearSdSgvp",
+            "mangledName": "$s15QuantActionsSDK12TrendElementV14statistic1YearSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK12TrendElementV14statistic1YearSdSgvg",
+                "mangledName": "$s15QuantActionsSDK12TrendElementV14statistic1YearSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "significance1Year",
+            "printedName": "significance1Year",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK12TrendElementV17significance1YearSdSgvp",
+            "mangledName": "$s15QuantActionsSDK12TrendElementV17significance1YearSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK12TrendElementV17significance1YearSdSgvg",
+                "mangledName": "$s15QuantActionsSDK12TrendElementV17significance1YearSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15QuantActionsSDK12TrendElementV",
+        "mangledName": "$s15QuantActionsSDK12TrendElementV",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DataPointElement",
+            "printedName": "DataPointElement",
+            "usr": "s:15QuantActionsSDK16DataPointElementP",
+            "mangledName": "$s15QuantActionsSDK16DataPointElementP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -615,6 +1451,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -1410,6 +2256,527 @@
         "moduleName": "QuantActionsSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "TrendKind",
+        "printedName": "TrendKind",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cognitiveFitness",
+            "printedName": "cognitiveFitness",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuantActionsSDK.TrendKind.Type) -> QuantActionsSDK.TrendKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrendKind",
+                    "printedName": "QuantActionsSDK.TrendKind",
+                    "usr": "s:15QuantActionsSDK9TrendKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuantActionsSDK.TrendKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendKind",
+                        "printedName": "QuantActionsSDK.TrendKind",
+                        "usr": "s:15QuantActionsSDK9TrendKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15QuantActionsSDK9TrendKindO16cognitiveFitnessyA2CmF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO16cognitiveFitnessyA2CmF",
+            "moduleName": "QuantActionsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "actionSpeed",
+            "printedName": "actionSpeed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuantActionsSDK.TrendKind.Type) -> QuantActionsSDK.TrendKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrendKind",
+                    "printedName": "QuantActionsSDK.TrendKind",
+                    "usr": "s:15QuantActionsSDK9TrendKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuantActionsSDK.TrendKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendKind",
+                        "printedName": "QuantActionsSDK.TrendKind",
+                        "usr": "s:15QuantActionsSDK9TrendKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15QuantActionsSDK9TrendKindO11actionSpeedyA2CmF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO11actionSpeedyA2CmF",
+            "moduleName": "QuantActionsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "typingSpeed",
+            "printedName": "typingSpeed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuantActionsSDK.TrendKind.Type) -> QuantActionsSDK.TrendKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrendKind",
+                    "printedName": "QuantActionsSDK.TrendKind",
+                    "usr": "s:15QuantActionsSDK9TrendKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuantActionsSDK.TrendKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendKind",
+                        "printedName": "QuantActionsSDK.TrendKind",
+                        "usr": "s:15QuantActionsSDK9TrendKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15QuantActionsSDK9TrendKindO11typingSpeedyA2CmF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO11typingSpeedyA2CmF",
+            "moduleName": "QuantActionsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "sleepScore",
+            "printedName": "sleepScore",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuantActionsSDK.TrendKind.Type) -> QuantActionsSDK.TrendKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrendKind",
+                    "printedName": "QuantActionsSDK.TrendKind",
+                    "usr": "s:15QuantActionsSDK9TrendKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuantActionsSDK.TrendKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendKind",
+                        "printedName": "QuantActionsSDK.TrendKind",
+                        "usr": "s:15QuantActionsSDK9TrendKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15QuantActionsSDK9TrendKindO10sleepScoreyA2CmF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO10sleepScoreyA2CmF",
+            "moduleName": "QuantActionsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "sleepLength",
+            "printedName": "sleepLength",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuantActionsSDK.TrendKind.Type) -> QuantActionsSDK.TrendKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrendKind",
+                    "printedName": "QuantActionsSDK.TrendKind",
+                    "usr": "s:15QuantActionsSDK9TrendKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuantActionsSDK.TrendKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendKind",
+                        "printedName": "QuantActionsSDK.TrendKind",
+                        "usr": "s:15QuantActionsSDK9TrendKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15QuantActionsSDK9TrendKindO11sleepLengthyA2CmF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO11sleepLengthyA2CmF",
+            "moduleName": "QuantActionsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "sleepInterruptions",
+            "printedName": "sleepInterruptions",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuantActionsSDK.TrendKind.Type) -> QuantActionsSDK.TrendKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrendKind",
+                    "printedName": "QuantActionsSDK.TrendKind",
+                    "usr": "s:15QuantActionsSDK9TrendKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuantActionsSDK.TrendKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendKind",
+                        "printedName": "QuantActionsSDK.TrendKind",
+                        "usr": "s:15QuantActionsSDK9TrendKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15QuantActionsSDK9TrendKindO18sleepInterruptionsyA2CmF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO18sleepInterruptionsyA2CmF",
+            "moduleName": "QuantActionsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "socialEngagement",
+            "printedName": "socialEngagement",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuantActionsSDK.TrendKind.Type) -> QuantActionsSDK.TrendKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrendKind",
+                    "printedName": "QuantActionsSDK.TrendKind",
+                    "usr": "s:15QuantActionsSDK9TrendKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuantActionsSDK.TrendKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendKind",
+                        "printedName": "QuantActionsSDK.TrendKind",
+                        "usr": "s:15QuantActionsSDK9TrendKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15QuantActionsSDK9TrendKindO16socialEngagementyA2CmF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO16socialEngagementyA2CmF",
+            "moduleName": "QuantActionsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "socialScreenTime",
+            "printedName": "socialScreenTime",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuantActionsSDK.TrendKind.Type) -> QuantActionsSDK.TrendKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrendKind",
+                    "printedName": "QuantActionsSDK.TrendKind",
+                    "usr": "s:15QuantActionsSDK9TrendKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuantActionsSDK.TrendKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendKind",
+                        "printedName": "QuantActionsSDK.TrendKind",
+                        "usr": "s:15QuantActionsSDK9TrendKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15QuantActionsSDK9TrendKindO16socialScreenTimeyA2CmF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO16socialScreenTimeyA2CmF",
+            "moduleName": "QuantActionsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "socialTaps",
+            "printedName": "socialTaps",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuantActionsSDK.TrendKind.Type) -> QuantActionsSDK.TrendKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrendKind",
+                    "printedName": "QuantActionsSDK.TrendKind",
+                    "usr": "s:15QuantActionsSDK9TrendKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuantActionsSDK.TrendKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendKind",
+                        "printedName": "QuantActionsSDK.TrendKind",
+                        "usr": "s:15QuantActionsSDK9TrendKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15QuantActionsSDK9TrendKindO10socialTapsyA2CmF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO10socialTapsyA2CmF",
+            "moduleName": "QuantActionsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "wave",
+            "printedName": "wave",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuantActionsSDK.TrendKind.Type) -> QuantActionsSDK.TrendKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrendKind",
+                    "printedName": "QuantActionsSDK.TrendKind",
+                    "usr": "s:15QuantActionsSDK9TrendKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuantActionsSDK.TrendKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendKind",
+                        "printedName": "QuantActionsSDK.TrendKind",
+                        "usr": "s:15QuantActionsSDK9TrendKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15QuantActionsSDK9TrendKindO4waveyA2CmF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO4waveyA2CmF",
+            "moduleName": "QuantActionsSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrendKind",
+                "printedName": "QuantActionsSDK.TrendKind",
+                "usr": "s:15QuantActionsSDK9TrendKindO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrendKind",
+                "printedName": "QuantActionsSDK.TrendKind",
+                "usr": "s:15QuantActionsSDK9TrendKindO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK9TrendKindO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO2eeoiySbAC_ACtFZ",
+            "moduleName": "QuantActionsSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK9TrendKindO9hashValueSivp",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO9hashValueSivp",
+            "moduleName": "QuantActionsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK9TrendKindO9hashValueSivg",
+                "mangledName": "$s15QuantActionsSDK9TrendKindO9hashValueSivg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK9TrendKindO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15QuantActionsSDK9TrendKindO4hash4intoys6HasherVz_tF",
+            "moduleName": "QuantActionsSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15QuantActionsSDK9TrendKindO",
+        "mangledName": "$s15QuantActionsSDK9TrendKindO",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1422,6 +2789,23 @@
         "printedName": "FleksyKeyboardSDK",
         "declKind": "Import",
         "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -2720,6 +4104,657 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "SleepSummaryElement",
+        "printedName": "SleepSummaryElement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sleepDate",
+            "printedName": "sleepDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK19SleepSummaryElementV9sleepDate10Foundation0H0Vvp",
+            "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV9sleepDate10Foundation0H0Vvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK19SleepSummaryElementV9sleepDate10Foundation0H0Vvg",
+                "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV9sleepDate10Foundation0H0Vvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wakeDate",
+            "printedName": "wakeDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK19SleepSummaryElementV8wakeDate10Foundation0H0Vvp",
+            "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV8wakeDate10Foundation0H0Vvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK19SleepSummaryElementV8wakeDate10Foundation0H0Vvg",
+                "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV8wakeDate10Foundation0H0Vvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interruptionsStart",
+            "printedName": "interruptionsStart",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Date]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK19SleepSummaryElementV18interruptionsStartSay10Foundation4DateVGvp",
+            "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV18interruptionsStartSay10Foundation4DateVGvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Date]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK19SleepSummaryElementV18interruptionsStartSay10Foundation4DateVGvg",
+                "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV18interruptionsStartSay10Foundation4DateVGvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interruptionsStop",
+            "printedName": "interruptionsStop",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Date]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK19SleepSummaryElementV17interruptionsStopSay10Foundation4DateVGvp",
+            "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV17interruptionsStopSay10Foundation4DateVGvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Date]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK19SleepSummaryElementV17interruptionsStopSay10Foundation4DateVGvg",
+                "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV17interruptionsStopSay10Foundation4DateVGvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interruptionsNumberOfTaps",
+            "printedName": "interruptionsNumberOfTaps",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK19SleepSummaryElementV25interruptionsNumberOfTapsSaySiGvp",
+            "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV25interruptionsNumberOfTapsSaySiGvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK19SleepSummaryElementV25interruptionsNumberOfTapsSaySiGvg",
+                "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV25interruptionsNumberOfTapsSaySiGvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeZone",
+            "printedName": "timeZone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK19SleepSummaryElementV8timeZoneSSvp",
+            "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV8timeZoneSSvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK19SleepSummaryElementV8timeZoneSSvg",
+                "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV8timeZoneSSvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15QuantActionsSDK19SleepSummaryElementV",
+        "mangledName": "$s15QuantActionsSDK19SleepSummaryElementV",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DataPointElement",
+            "printedName": "DataPointElement",
+            "usr": "s:15QuantActionsSDK16DataPointElementP",
+            "mangledName": "$s15QuantActionsSDK16DataPointElementP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SleepScoreElement",
+        "printedName": "SleepScoreElement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sleepScore",
+            "printedName": "sleepScore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK17SleepScoreElementV05sleepE0Sdvp",
+            "mangledName": "$s15QuantActionsSDK17SleepScoreElementV05sleepE0Sdvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK17SleepScoreElementV05sleepE0Sdvg",
+                "mangledName": "$s15QuantActionsSDK17SleepScoreElementV05sleepE0Sdvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confidenceIntervalLow",
+            "printedName": "confidenceIntervalLow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK17SleepScoreElementV21confidenceIntervalLowSdvp",
+            "mangledName": "$s15QuantActionsSDK17SleepScoreElementV21confidenceIntervalLowSdvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK17SleepScoreElementV21confidenceIntervalLowSdvg",
+                "mangledName": "$s15QuantActionsSDK17SleepScoreElementV21confidenceIntervalLowSdvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confidenceIntervalHigh",
+            "printedName": "confidenceIntervalHigh",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK17SleepScoreElementV22confidenceIntervalHighSdvp",
+            "mangledName": "$s15QuantActionsSDK17SleepScoreElementV22confidenceIntervalHighSdvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK17SleepScoreElementV22confidenceIntervalHighSdvg",
+                "mangledName": "$s15QuantActionsSDK17SleepScoreElementV22confidenceIntervalHighSdvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confidence",
+            "printedName": "confidence",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK17SleepScoreElementV10confidenceSdvp",
+            "mangledName": "$s15QuantActionsSDK17SleepScoreElementV10confidenceSdvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK17SleepScoreElementV10confidenceSdvg",
+                "mangledName": "$s15QuantActionsSDK17SleepScoreElementV10confidenceSdvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wakeDate",
+            "printedName": "wakeDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK17SleepScoreElementV8wakeDate10Foundation0H0Vvp",
+            "mangledName": "$s15QuantActionsSDK17SleepScoreElementV8wakeDate10Foundation0H0Vvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK17SleepScoreElementV8wakeDate10Foundation0H0Vvg",
+                "mangledName": "$s15QuantActionsSDK17SleepScoreElementV8wakeDate10Foundation0H0Vvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeZone",
+            "printedName": "timeZone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK17SleepScoreElementV8timeZoneSSvp",
+            "mangledName": "$s15QuantActionsSDK17SleepScoreElementV8timeZoneSSvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK17SleepScoreElementV8timeZoneSSvg",
+                "mangledName": "$s15QuantActionsSDK17SleepScoreElementV8timeZoneSSvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15QuantActionsSDK17SleepScoreElementV",
+        "mangledName": "$s15QuantActionsSDK17SleepScoreElementV",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DataPointElement",
+            "printedName": "DataPointElement",
+            "usr": "s:15QuantActionsSDK16DataPointElementP",
+            "mangledName": "$s15QuantActionsSDK16DataPointElementP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3018,6 +5053,161 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AveragesSleepSummaryElement",
+        "printedName": "AveragesSleepSummaryElement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sleepDate",
+            "printedName": "sleepDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV9sleepDate10Foundation0I0Vvp",
+            "mangledName": "$s15QuantActionsSDK27AveragesSleepSummaryElementV9sleepDate10Foundation0I0Vvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV9sleepDate10Foundation0I0Vvg",
+                "mangledName": "$s15QuantActionsSDK27AveragesSleepSummaryElementV9sleepDate10Foundation0I0Vvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wakeDate",
+            "printedName": "wakeDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV8wakeDate10Foundation0I0Vvp",
+            "mangledName": "$s15QuantActionsSDK27AveragesSleepSummaryElementV8wakeDate10Foundation0I0Vvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV8wakeDate10Foundation0I0Vvg",
+                "mangledName": "$s15QuantActionsSDK27AveragesSleepSummaryElementV8wakeDate10Foundation0I0Vvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "numberOfInterruptions",
+            "printedName": "numberOfInterruptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV21numberOfInterruptionsSdvp",
+            "mangledName": "$s15QuantActionsSDK27AveragesSleepSummaryElementV21numberOfInterruptionsSdvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV21numberOfInterruptionsSdvg",
+                "mangledName": "$s15QuantActionsSDK27AveragesSleepSummaryElementV21numberOfInterruptionsSdvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV",
+        "mangledName": "$s15QuantActionsSDK27AveragesSleepSummaryElementV",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DataPointElement",
+            "printedName": "DataPointElement",
+            "usr": "s:15QuantActionsSDK16DataPointElementP",
+            "mangledName": "$s15QuantActionsSDK16DataPointElementP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3445,6 +5635,23 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4357,6 +6564,471 @@
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "actionSpeedMetric",
+            "printedName": "actionSpeedMetric(participationID:interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DoubleValueElement",
+                        "printedName": "QuantActionsSDK.DoubleValueElement",
+                        "usr": "s:15QuantActionsSDK18DoubleValueElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateInterval",
+                "printedName": "Foundation.DateInterval",
+                "usr": "s:10Foundation12DateIntervalV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV17actionSpeedMetric15participationID8intervalSayAA9DataPointVyAA18DoubleValueElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "mangledName": "$s15QuantActionsSDK2QAV17actionSpeedMetric15participationID8intervalSayAA9DataPointVyAA18DoubleValueElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "typingSpeedMetric",
+            "printedName": "typingSpeedMetric(participationID:interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DoubleValueElement",
+                        "printedName": "QuantActionsSDK.DoubleValueElement",
+                        "usr": "s:15QuantActionsSDK18DoubleValueElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateInterval",
+                "printedName": "Foundation.DateInterval",
+                "usr": "s:10Foundation12DateIntervalV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV17typingSpeedMetric15participationID8intervalSayAA9DataPointVyAA18DoubleValueElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "mangledName": "$s15QuantActionsSDK2QAV17typingSpeedMetric15participationID8intervalSayAA9DataPointVyAA18DoubleValueElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cognitiveFitnessMetric",
+            "printedName": "cognitiveFitnessMetric(participationID:interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DoubleValueElement",
+                        "printedName": "QuantActionsSDK.DoubleValueElement",
+                        "usr": "s:15QuantActionsSDK18DoubleValueElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateInterval",
+                "printedName": "Foundation.DateInterval",
+                "usr": "s:10Foundation12DateIntervalV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV22cognitiveFitnessMetric15participationID8intervalSayAA9DataPointVyAA18DoubleValueElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "mangledName": "$s15QuantActionsSDK2QAV22cognitiveFitnessMetric15participationID8intervalSayAA9DataPointVyAA18DoubleValueElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "socialEngagementMetric",
+            "printedName": "socialEngagementMetric(participationID:interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DoubleValueElement",
+                        "printedName": "QuantActionsSDK.DoubleValueElement",
+                        "usr": "s:15QuantActionsSDK18DoubleValueElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateInterval",
+                "printedName": "Foundation.DateInterval",
+                "usr": "s:10Foundation12DateIntervalV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV22socialEngagementMetric15participationID8intervalSayAA9DataPointVyAA18DoubleValueElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "mangledName": "$s15QuantActionsSDK2QAV22socialEngagementMetric15participationID8intervalSayAA9DataPointVyAA18DoubleValueElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "socialTapsMetric",
+            "printedName": "socialTapsMetric(participationID:interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DoubleValueElement",
+                        "printedName": "QuantActionsSDK.DoubleValueElement",
+                        "usr": "s:15QuantActionsSDK18DoubleValueElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateInterval",
+                "printedName": "Foundation.DateInterval",
+                "usr": "s:10Foundation12DateIntervalV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV16socialTapsMetric15participationID8intervalSayAA9DataPointVyAA18DoubleValueElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "mangledName": "$s15QuantActionsSDK2QAV16socialTapsMetric15participationID8intervalSayAA9DataPointVyAA18DoubleValueElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "screenTimeAggregateMetric",
+            "printedName": "screenTimeAggregateMetric(participationID:interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScreenTimeAggregateElement",
+                        "printedName": "QuantActionsSDK.ScreenTimeAggregateElement",
+                        "usr": "s:15QuantActionsSDK26ScreenTimeAggregateElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateInterval",
+                "printedName": "Foundation.DateInterval",
+                "usr": "s:10Foundation12DateIntervalV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV25screenTimeAggregateMetric15participationID8intervalSayAA9DataPointVyAA06ScreenfG7ElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "mangledName": "$s15QuantActionsSDK2QAV25screenTimeAggregateMetric15participationID8intervalSayAA9DataPointVyAA06ScreenfG7ElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sleepScoreMetric",
+            "printedName": "sleepScoreMetric(participationID:interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SleepScoreElement",
+                        "printedName": "QuantActionsSDK.SleepScoreElement",
+                        "usr": "s:15QuantActionsSDK17SleepScoreElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateInterval",
+                "printedName": "Foundation.DateInterval",
+                "usr": "s:10Foundation12DateIntervalV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV16sleepScoreMetric15participationID8intervalSayAA9DataPointVyAA05SleepF7ElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "mangledName": "$s15QuantActionsSDK2QAV16sleepScoreMetric15participationID8intervalSayAA9DataPointVyAA05SleepF7ElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sleepSummaryMetric",
+            "printedName": "sleepSummaryMetric(participationID:interval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.SleepSummaryElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.SleepSummaryElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SleepSummaryElement",
+                        "printedName": "QuantActionsSDK.SleepSummaryElement",
+                        "usr": "s:15QuantActionsSDK19SleepSummaryElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateInterval",
+                "printedName": "Foundation.DateInterval",
+                "usr": "s:10Foundation12DateIntervalV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV18sleepSummaryMetric15participationID8intervalSayAA9DataPointVyAA05SleepF7ElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "mangledName": "$s15QuantActionsSDK2QAV18sleepSummaryMetric15participationID8intervalSayAA9DataPointVyAA05SleepF7ElementVGGSS_10Foundation12DateIntervalVtYaKF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trend",
+            "printedName": "trend(participationID:interval:trendKind:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendElement",
+                        "printedName": "QuantActionsSDK.TrendElement",
+                        "usr": "s:15QuantActionsSDK12TrendElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateInterval",
+                "printedName": "Foundation.DateInterval",
+                "usr": "s:10Foundation12DateIntervalV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrendKind",
+                "printedName": "QuantActionsSDK.TrendKind",
+                "usr": "s:15QuantActionsSDK9TrendKindO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV5trend15participationID8interval0E4KindSayAA9DataPointVyAA12TrendElementVGGSS_10Foundation12DateIntervalVAA0lI0OtYaKF",
+            "mangledName": "$s15QuantActionsSDK2QAV5trend15participationID8interval0E4KindSayAA9DataPointVyAA12TrendElementVGGSS_10Foundation12DateIntervalVAA0lI0OtYaKF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -4388,6 +7060,16 @@
         "printedName": "FleksyAppsCore",
         "declKind": "Import",
         "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4715,6 +7397,23 @@
       },
       {
         "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4733,11 +7432,1627 @@
         "printedName": "FleksyAppsCore",
         "declKind": "Import",
         "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DoubleValueElement",
+        "printedName": "DoubleValueElement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK18DoubleValueElementV5valueSdvp",
+            "mangledName": "$s15QuantActionsSDK18DoubleValueElementV5valueSdvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK18DoubleValueElementV5valueSdvg",
+                "mangledName": "$s15QuantActionsSDK18DoubleValueElementV5valueSdvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confidenceIntervalLow",
+            "printedName": "confidenceIntervalLow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK18DoubleValueElementV21confidenceIntervalLowSdSgvp",
+            "mangledName": "$s15QuantActionsSDK18DoubleValueElementV21confidenceIntervalLowSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK18DoubleValueElementV21confidenceIntervalLowSdSgvg",
+                "mangledName": "$s15QuantActionsSDK18DoubleValueElementV21confidenceIntervalLowSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confidenceIntervalHigh",
+            "printedName": "confidenceIntervalHigh",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK18DoubleValueElementV22confidenceIntervalHighSdSgvp",
+            "mangledName": "$s15QuantActionsSDK18DoubleValueElementV22confidenceIntervalHighSdSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK18DoubleValueElementV22confidenceIntervalHighSdSgvg",
+                "mangledName": "$s15QuantActionsSDK18DoubleValueElementV22confidenceIntervalHighSdSgvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15QuantActionsSDK18DoubleValueElementV",
+        "mangledName": "$s15QuantActionsSDK18DoubleValueElementV",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DataPointElement",
+            "printedName": "DataPointElement",
+            "usr": "s:15QuantActionsSDK16DataPointElementP",
+            "mangledName": "$s15QuantActionsSDK16DataPointElementP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Array",
+        "printedName": "Array",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "monthlyAverages",
+            "printedName": "monthlyAverages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.AveragesSleepSummaryElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.AveragesSleepSummaryElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AveragesSleepSummaryElement",
+                        "printedName": "QuantActionsSDK.AveragesSleepSummaryElement",
+                        "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA19SleepSummaryElementVGRszlE15monthlyAveragesSayACyAA0jfgH0VGGvp",
+            "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA19SleepSummaryElementVGRszlE15monthlyAveragesSayACyAA0jfgH0VGGvp",
+            "moduleName": "QuantActionsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.AveragesSleepSummaryElement>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataPoint",
+                        "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.AveragesSleepSummaryElement>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AveragesSleepSummaryElement",
+                            "printedName": "QuantActionsSDK.AveragesSleepSummaryElement",
+                            "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV"
+                          }
+                        ],
+                        "usr": "s:15QuantActionsSDK9DataPointV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA19SleepSummaryElementVGRszlE15monthlyAveragesSayACyAA0jfgH0VGGvg",
+                "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA19SleepSummaryElementVGRszlE15monthlyAveragesSayACyAA0jfgH0VGGvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == QuantActionsSDK.DataPoint<QuantActionsSDK.SleepSummaryElement>>",
+                "sugared_genericSig": "<Element where Element == QuantActionsSDK.DataPoint<QuantActionsSDK.SleepSummaryElement>>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "weeklyAverages",
+            "printedName": "weeklyAverages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.AveragesSleepSummaryElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.AveragesSleepSummaryElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AveragesSleepSummaryElement",
+                        "printedName": "QuantActionsSDK.AveragesSleepSummaryElement",
+                        "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA19SleepSummaryElementVGRszlE14weeklyAveragesSayACyAA0jfgH0VGGvp",
+            "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA19SleepSummaryElementVGRszlE14weeklyAveragesSayACyAA0jfgH0VGGvp",
+            "moduleName": "QuantActionsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.AveragesSleepSummaryElement>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataPoint",
+                        "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.AveragesSleepSummaryElement>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AveragesSleepSummaryElement",
+                            "printedName": "QuantActionsSDK.AveragesSleepSummaryElement",
+                            "usr": "s:15QuantActionsSDK27AveragesSleepSummaryElementV"
+                          }
+                        ],
+                        "usr": "s:15QuantActionsSDK9DataPointV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA19SleepSummaryElementVGRszlE14weeklyAveragesSayACyAA0jfgH0VGGvg",
+                "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA19SleepSummaryElementVGRszlE14weeklyAveragesSayACyAA0jfgH0VGGvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == QuantActionsSDK.DataPoint<QuantActionsSDK.SleepSummaryElement>>",
+                "sugared_genericSig": "<Element where Element == QuantActionsSDK.DataPoint<QuantActionsSDK.SleepSummaryElement>>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "monthlyAverages",
+            "printedName": "monthlyAverages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DoubleValueElement",
+                        "printedName": "QuantActionsSDK.DoubleValueElement",
+                        "usr": "s:15QuantActionsSDK18DoubleValueElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA18DoubleValueElementVGRszlE15monthlyAveragesSayAFGvp",
+            "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA18DoubleValueElementVGRszlE15monthlyAveragesSayAFGvp",
+            "moduleName": "QuantActionsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataPoint",
+                        "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DoubleValueElement",
+                            "printedName": "QuantActionsSDK.DoubleValueElement",
+                            "usr": "s:15QuantActionsSDK18DoubleValueElementV"
+                          }
+                        ],
+                        "usr": "s:15QuantActionsSDK9DataPointV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA18DoubleValueElementVGRszlE15monthlyAveragesSayAFGvg",
+                "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA18DoubleValueElementVGRszlE15monthlyAveragesSayAFGvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>>",
+                "sugared_genericSig": "<Element where Element == QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "weeklyAverages",
+            "printedName": "weeklyAverages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DoubleValueElement",
+                        "printedName": "QuantActionsSDK.DoubleValueElement",
+                        "usr": "s:15QuantActionsSDK18DoubleValueElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA18DoubleValueElementVGRszlE14weeklyAveragesSayAFGvp",
+            "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA18DoubleValueElementVGRszlE14weeklyAveragesSayAFGvp",
+            "moduleName": "QuantActionsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataPoint",
+                        "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DoubleValueElement",
+                            "printedName": "QuantActionsSDK.DoubleValueElement",
+                            "usr": "s:15QuantActionsSDK18DoubleValueElementV"
+                          }
+                        ],
+                        "usr": "s:15QuantActionsSDK9DataPointV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA18DoubleValueElementVGRszlE14weeklyAveragesSayAFGvg",
+                "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA18DoubleValueElementVGRszlE14weeklyAveragesSayAFGvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>>",
+                "sugared_genericSig": "<Element where Element == QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "monthlyAverages",
+            "printedName": "monthlyAverages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendElement",
+                        "printedName": "QuantActionsSDK.TrendElement",
+                        "usr": "s:15QuantActionsSDK12TrendElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA12TrendElementVGRszlE15monthlyAveragesSayAFGvp",
+            "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA12TrendElementVGRszlE15monthlyAveragesSayAFGvp",
+            "moduleName": "QuantActionsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataPoint",
+                        "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TrendElement",
+                            "printedName": "QuantActionsSDK.TrendElement",
+                            "usr": "s:15QuantActionsSDK12TrendElementV"
+                          }
+                        ],
+                        "usr": "s:15QuantActionsSDK9DataPointV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA12TrendElementVGRszlE15monthlyAveragesSayAFGvg",
+                "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA12TrendElementVGRszlE15monthlyAveragesSayAFGvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>>",
+                "sugared_genericSig": "<Element where Element == QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "weeklyAverages",
+            "printedName": "weeklyAverages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrendElement",
+                        "printedName": "QuantActionsSDK.TrendElement",
+                        "usr": "s:15QuantActionsSDK12TrendElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA12TrendElementVGRszlE14weeklyAveragesSayAFGvp",
+            "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA12TrendElementVGRszlE14weeklyAveragesSayAFGvp",
+            "moduleName": "QuantActionsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataPoint",
+                        "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TrendElement",
+                            "printedName": "QuantActionsSDK.TrendElement",
+                            "usr": "s:15QuantActionsSDK12TrendElementV"
+                          }
+                        ],
+                        "usr": "s:15QuantActionsSDK9DataPointV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA12TrendElementVGRszlE14weeklyAveragesSayAFGvg",
+                "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA12TrendElementVGRszlE14weeklyAveragesSayAFGvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>>",
+                "sugared_genericSig": "<Element where Element == QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "monthlyAverages",
+            "printedName": "monthlyAverages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScreenTimeAggregateElement",
+                        "printedName": "QuantActionsSDK.ScreenTimeAggregateElement",
+                        "usr": "s:15QuantActionsSDK26ScreenTimeAggregateElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA26ScreenTimeAggregateElementVGRszlE15monthlyAveragesSayAFGvp",
+            "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA26ScreenTimeAggregateElementVGRszlE15monthlyAveragesSayAFGvp",
+            "moduleName": "QuantActionsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataPoint",
+                        "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScreenTimeAggregateElement",
+                            "printedName": "QuantActionsSDK.ScreenTimeAggregateElement",
+                            "usr": "s:15QuantActionsSDK26ScreenTimeAggregateElementV"
+                          }
+                        ],
+                        "usr": "s:15QuantActionsSDK9DataPointV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA26ScreenTimeAggregateElementVGRszlE15monthlyAveragesSayAFGvg",
+                "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA26ScreenTimeAggregateElementVGRszlE15monthlyAveragesSayAFGvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>>",
+                "sugared_genericSig": "<Element where Element == QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "weeklyAverages",
+            "printedName": "weeklyAverages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScreenTimeAggregateElement",
+                        "printedName": "QuantActionsSDK.ScreenTimeAggregateElement",
+                        "usr": "s:15QuantActionsSDK26ScreenTimeAggregateElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA26ScreenTimeAggregateElementVGRszlE14weeklyAveragesSayAFGvp",
+            "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA26ScreenTimeAggregateElementVGRszlE14weeklyAveragesSayAFGvp",
+            "moduleName": "QuantActionsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataPoint",
+                        "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScreenTimeAggregateElement",
+                            "printedName": "QuantActionsSDK.ScreenTimeAggregateElement",
+                            "usr": "s:15QuantActionsSDK26ScreenTimeAggregateElementV"
+                          }
+                        ],
+                        "usr": "s:15QuantActionsSDK9DataPointV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA26ScreenTimeAggregateElementVGRszlE14weeklyAveragesSayAFGvg",
+                "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA26ScreenTimeAggregateElementVGRszlE14weeklyAveragesSayAFGvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>>",
+                "sugared_genericSig": "<Element where Element == QuantActionsSDK.DataPoint<QuantActionsSDK.ScreenTimeAggregateElement>>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "monthlyAverages",
+            "printedName": "monthlyAverages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SleepScoreElement",
+                        "printedName": "QuantActionsSDK.SleepScoreElement",
+                        "usr": "s:15QuantActionsSDK17SleepScoreElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA17SleepScoreElementVGRszlE15monthlyAveragesSayAFGvp",
+            "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA17SleepScoreElementVGRszlE15monthlyAveragesSayAFGvp",
+            "moduleName": "QuantActionsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataPoint",
+                        "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SleepScoreElement",
+                            "printedName": "QuantActionsSDK.SleepScoreElement",
+                            "usr": "s:15QuantActionsSDK17SleepScoreElementV"
+                          }
+                        ],
+                        "usr": "s:15QuantActionsSDK9DataPointV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA17SleepScoreElementVGRszlE15monthlyAveragesSayAFGvg",
+                "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA17SleepScoreElementVGRszlE15monthlyAveragesSayAFGvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>>",
+                "sugared_genericSig": "<Element where Element == QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "weeklyAverages",
+            "printedName": "weeklyAverages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataPoint",
+                    "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SleepScoreElement",
+                        "printedName": "QuantActionsSDK.SleepScoreElement",
+                        "usr": "s:15QuantActionsSDK17SleepScoreElementV"
+                      }
+                    ],
+                    "usr": "s:15QuantActionsSDK9DataPointV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA17SleepScoreElementVGRszlE14weeklyAveragesSayAFGvp",
+            "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA17SleepScoreElementVGRszlE14weeklyAveragesSayAFGvp",
+            "moduleName": "QuantActionsSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DataPoint",
+                        "printedName": "QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SleepScoreElement",
+                            "printedName": "QuantActionsSDK.SleepScoreElement",
+                            "usr": "s:15QuantActionsSDK17SleepScoreElementV"
+                          }
+                        ],
+                        "usr": "s:15QuantActionsSDK9DataPointV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sa15QuantActionsSDKAA9DataPointVyAA17SleepScoreElementVGRszlE14weeklyAveragesSayAFGvg",
+                "mangledName": "$sSa15QuantActionsSDKAA9DataPointVyAA17SleepScoreElementVGRszlE14weeklyAveragesSayAFGvg",
+                "moduleName": "QuantActionsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 == QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>>",
+                "sugared_genericSig": "<Element where Element == QuantActionsSDK.DataPoint<QuantActionsSDK.SleepScoreElement>>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sa",
+        "mangledName": "$sSa",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Element>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_DestructorSafeContainer",
+            "printedName": "_DestructorSafeContainer",
+            "usr": "s:s24_DestructorSafeContainerP",
+            "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ArrayProtocol",
+            "printedName": "_ArrayProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Buffer",
+                "printedName": "_Buffer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ArrayBuffer",
+                    "printedName": "Swift._ArrayBuffer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s12_ArrayBufferV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s14_ArrayProtocolP",
+            "mangledName": "$ss14_ArrayProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.EncodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BSON",
+            "printedName": "BSON",
+            "usr": "s:10RealmSwift4BSONP",
+            "mangledName": "$s10RealmSwift4BSONP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PartitionValue",
+            "printedName": "PartitionValue",
+            "usr": "s:10RealmSwift14PartitionValueP",
+            "mangledName": "$s10RealmSwift14PartitionValueP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/Calendar+GenerateDates.swift",
+      "kind": "BooleanLiteral",
+      "offset": 513,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/Calendar+GenerateDates.swift",
+      "kind": "IntegerLiteral",
+      "offset": 797,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/Calendar+GenerateDates.swift",
+      "kind": "IntegerLiteral",
+      "offset": 808,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/Calendar+GenerateDates.swift",
+      "kind": "IntegerLiteral",
+      "offset": 819,
+      "length": 1,
+      "value": "0"
+    },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/HTTP\/HTTPHeader.swift",
       "kind": "StringLiteral",
@@ -4874,112 +9189,126 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 335,
       "length": 24,
       "value": "\"QUANTACTIONS_APP_GROUP\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 351,
+      "offset": 364,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 391,
+      "offset": 404,
       "length": 10,
       "value": "\"deviceID\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 440,
+      "offset": 453,
       "length": 11,
       "value": "\"basicInfo\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 508,
+      "offset": 521,
       "length": 29,
       "value": "\"deviceRegistrationPublicKey\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 579,
+      "offset": 592,
       "length": 14,
       "value": "\"lastSyncDate\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 647,
+      "offset": 660,
       "length": 26,
       "value": "\"isDataCollectionDisabled\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 771,
+      "length": 14,
+      "value": "\"test.storage\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 883,
       "length": 41,
       "value": "\"https:\/\/quantactions.com\/privacy-policy\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 892,
+      "offset": 1028,
       "length": 22,
       "value": "\"QUANTACTIONS_API_KEY\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 919,
+      "offset": 1055,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1003,
+      "offset": 1134,
+      "length": 74,
+      "value": "\"44270d6e-f590-4c87-a559-d13843cfa8a369d2e305-e801-4b76-9195-84577bef6d2c\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1300,
       "length": 38,
       "value": "\"ae704835-5e12-4afc-a98c-a8b3db64e9ab\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1084,
+      "offset": 1381,
       "length": 34,
       "value": "\"8897ba52cd0389816822a92bb720ae3b\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1271,
+      "offset": 1568,
       "length": 3,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1466,
+      "offset": 1763,
       "length": 15,
       "value": "\"default.realm\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1581,
+      "offset": 1878,
       "length": 34,
       "value": "\"com.quantactions.QuantActionsSDK\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1952,
+      "offset": 2249,
       "length": 7,
       "value": "\"appex\""
     },
@@ -5208,6 +9537,48 @@
       "value": "100"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/TypingDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 14,
+      "value": "\"typing-speed\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/TypingDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 6,
+      "value": "\"ci-l\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/TypingDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 6,
+      "value": "\"ci-h\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/TypingDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 14,
+      "value": "\"typing-speed\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/TypingDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 6,
+      "value": "\"ci-l\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/TypingDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 6,
+      "value": "\"ci-h\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/LocalizedErrors\/NetworkError+Localized.swift",
       "kind": "StringLiteral",
       "offset": 210,
@@ -5248,6 +9619,48 @@
       "offset": 563,
       "length": 3,
       "value": "300"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 23,
+      "value": "\"tapping-time-interval\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 6,
+      "value": "\"ci-l\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 6,
+      "value": "\"ci-h\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 23,
+      "value": "\"tapping-time-interval\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 6,
+      "value": "\"ci-l\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 6,
+      "value": "\"ci-h\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Storage\/JournalEventsStorage.swift",
@@ -5663,6 +10076,90 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 13,
+      "value": "\"sleep-score\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 6,
+      "value": "\"ci-l\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 6,
+      "value": "\"ci-h\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 6,
+      "value": "\"conf\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 10,
+      "value": "\"wake-utc\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 11,
+      "value": "\"time-zone\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 13,
+      "value": "\"sleep-score\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 6,
+      "value": "\"ci-l\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 6,
+      "value": "\"ci-h\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 6,
+      "value": "\"conf\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 10,
+      "value": "\"wake-utc\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 11,
+      "value": "\"time-zone\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/WithdrawFromStudyRequest.swift",
       "kind": "StringLiteral",
       "offset": 212,
@@ -5724,6 +10221,41 @@
       "offset": 6840,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/MetricsAndTrendsCalculator\/SleepScoreElementsToAveragesMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/MetricsAndTrendsCalculator\/SleepScoreElementsToAveragesMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 316,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/MetricsAndTrendsCalculator\/SleepScoreElementsToAveragesMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 414,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/MetricsAndTrendsCalculator\/SleepScoreElementsToAveragesMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 488,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/MetricsAndTrendsCalculator\/SleepScoreElementsToAveragesMapper.swift",
+      "kind": "StringLiteral",
+      "offset": 612,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/SubmitDeviceHealthRequest.swift",
@@ -5824,6 +10356,139 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 89,
+      "length": 17,
+      "value": "\"001-003-003-002\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 136,
+      "length": 17,
+      "value": "\"001-003-004-002\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 17,
+      "value": "\"003-001-001-003\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 17,
+      "value": "\"003-001-001-004\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 17,
+      "value": "\"001-005-005-011\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 332,
+      "length": 17,
+      "value": "\"003-001-001-002\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 17,
+      "value": "\"003-001-001-005\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 435,
+      "length": 17,
+      "value": "\"001-002-006-004\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 17,
+      "value": "\"003-003-002-004\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 17,
+      "value": "\"003-003-002-001\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 603,
+      "length": 17,
+      "value": "\"003-003-002-003\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 17,
+      "value": "\"003-003-001-004\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 17,
+      "value": "\"003-003-001-001\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 17,
+      "value": "\"003-003-001-003\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 802,
+      "length": 17,
+      "value": "\"003-003-003-005\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 17,
+      "value": "\"003-003-003-002\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 17,
+      "value": "\"003-003-003-004\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 17,
+      "value": "\"003-003-004-001\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10255,
+      "length": 2,
+      "value": "-2"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/JournalEventsRequest.swift",
       "kind": "StringLiteral",
       "offset": 153,
@@ -5864,6 +10529,55 @@
       "offset": 231,
       "length": 1,
       "value": "\"\/journalEntriesGet\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/MetricsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 62,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/MetricsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 1,
+      "value": "\"\/ParticipationAnalytics\/getCosmosCode\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/MetricsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 13,
+      "value": "\"patitionKey\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/MetricsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 15,
+      "value": "\"containerName\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/MetricsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 546,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/MetricsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 6,
+      "value": "\"from\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/MetricsRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 4,
+      "value": "\"to\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/DeviceParticipationDTO.swift",
@@ -6139,6 +10853,13 @@
       "value": "-1"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/MetricsAndTrendsCalculator\/SleepSummaryElementsToAveragesMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/JournalEntryDeleteRequest.swift",
       "kind": "StringLiteral",
       "offset": 262,
@@ -6207,6 +10928,20 @@
       "offset": 2952,
       "length": 10,
       "value": "\"openURL:\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/MetricsAndTrendsCalculator\/ScreenTimeAggregateElementsToAveragesMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/MetricsAndTrendsCalculator\/ScreenTimeAggregateElementsToAveragesMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/JournalEntryDTO.swift",
@@ -6449,56 +11184,56 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 2295,
+      "offset": 2372,
       "length": 16,
       "value": "\"AppleKeyboards\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4583,
+      "offset": 4660,
       "length": 65,
       "value": "\"Couldn't sync JournalEvent items: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4647,
+      "offset": 4724,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4784,
+      "offset": 4861,
       "length": 57,
       "value": "\"Couldn't sync Journaling: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4840,
+      "offset": 4917,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "BooleanLiteral",
-      "offset": 8724,
+      "offset": 8801,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "BooleanLiteral",
-      "offset": 8925,
+      "offset": 9002,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 9204,
+      "offset": 9281,
       "length": 119,
       "value": "\"Missing QUANTACTIONS_API_KEY and\/or QUANTACTIONS_APP_GROUP.\nMake sure they are added to the .plist file of your app.\""
     },
@@ -6508,6 +11243,62 @@
       "offset": 119,
       "length": 22,
       "value": "\"languagesKeyboardApp\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ScreenTimeAggregateDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 13,
+      "value": "\"screen-time\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ScreenTimeAggregateDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 20,
+      "value": "\"social-screen-time\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ScreenTimeAggregateDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 13,
+      "value": "\"screen-time\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ScreenTimeAggregateDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 20,
+      "value": "\"social-screen-time\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/DataSources\/ParticipationAnalyticsDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 9,
+      "value": "\"yyyy-MM\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/DataSources\/ParticipationAnalyticsDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/DataSources\/ParticipationAnalyticsDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/MetricsAndTrendsCalculator\/DoubleValueElementsToAveragesMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 214,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/Extensions\/UIDevice+ModelName.swift",
@@ -7525,6 +12316,132 @@
       "value": "\"Authorization\""
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/CognitiveDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 13,
+      "value": "\"speed-score\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/CognitiveDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 6,
+      "value": "\"ci-l\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/CognitiveDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 6,
+      "value": "\"ci-h\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/CognitiveDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 13,
+      "value": "\"speed-score\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/CognitiveDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 6,
+      "value": "\"ci-l\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/CognitiveDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 6,
+      "value": "\"ci-h\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 11,
+      "value": "\"sleep-utc\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 360,
+      "length": 10,
+      "value": "\"wake-utc\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 11,
+      "value": "\"int-start\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 10,
+      "value": "\"int-stop\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 11,
+      "value": "\"int-ntaps\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 11,
+      "value": "\"time-zone\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 11,
+      "value": "\"sleep-utc\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 360,
+      "length": 10,
+      "value": "\"wake-utc\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 11,
+      "value": "\"int-start\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 10,
+      "value": "\"int-stop\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 11,
+      "value": "\"int-ntaps\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepSummaryDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 11,
+      "value": "\"time-zone\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
       "offset": 89,
@@ -7719,6 +12636,41 @@
       "offset": 2444,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Storage\/Models\/Statistics\/MetricOrTrendDBO.swift",
+      "kind": "BooleanLiteral",
+      "offset": 141,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/Extensions\/Array+Average.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/Extensions\/Array+Average.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SocialDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 18,
+      "value": "\"engagement-score\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SocialDataItemDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 18,
+      "value": "\"engagement-score\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/NoFullAccessKeyboardApp\/NoFullAccessViewKeyboardApp.swift",
