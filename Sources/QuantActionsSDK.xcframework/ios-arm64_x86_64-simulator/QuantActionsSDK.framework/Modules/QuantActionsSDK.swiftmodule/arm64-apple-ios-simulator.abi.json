@@ -9749,6 +9749,13 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/RegisterDeviceRequest.swift",
       "kind": "StringLiteral",
+      "offset": 348,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/RegisterDeviceRequest.swift",
+      "kind": "StringLiteral",
       "offset": 148,
       "length": 13,
       "value": "\"tapDeviceId\""
@@ -9784,14 +9791,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/RegisterDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 555,
+      "offset": 348,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/RegisterDeviceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 529,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/RegisterDeviceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 621,
       "length": 45,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/RegisterDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 579,
+      "offset": 645,
       "length": 1,
       "value": "\"\/TapDevices\/register\""
     },
