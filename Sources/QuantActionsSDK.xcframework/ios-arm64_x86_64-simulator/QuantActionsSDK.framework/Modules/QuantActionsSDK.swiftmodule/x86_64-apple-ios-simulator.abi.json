@@ -4446,6 +4446,991 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "FleksyKeyboardSDK",
+        "printedName": "FleksyKeyboardSDK",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyboardSettings",
+        "printedName": "KeyboardSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "caseSensitive",
+            "printedName": "caseSensitive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV13caseSensitiveSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13caseSensitiveSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV13caseSensitiveSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13caseSensitiveSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV13caseSensitiveSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13caseSensitiveSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV13caseSensitiveSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13caseSensitiveSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "smartPunctuation",
+            "printedName": "smartPunctuation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV16smartPunctuationSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV16smartPunctuationSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV16smartPunctuationSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV16smartPunctuationSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV16smartPunctuationSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV16smartPunctuationSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV16smartPunctuationSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV16smartPunctuationSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoCapitalization",
+            "printedName": "autoCapitalization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV18autoCapitalizationSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV18autoCapitalizationSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV18autoCapitalizationSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV18autoCapitalizationSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV18autoCapitalizationSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV18autoCapitalizationSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV18autoCapitalizationSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV18autoCapitalizationSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoLearn",
+            "printedName": "autoLearn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV9autoLearnSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV9autoLearnSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV9autoLearnSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV9autoLearnSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV9autoLearnSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV9autoLearnSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV9autoLearnSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV9autoLearnSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "doubleSpaceTapAddsPunctuation",
+            "printedName": "doubleSpaceTapAddsPunctuation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV29doubleSpaceTapAddsPunctuationSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV29doubleSpaceTapAddsPunctuationSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV29doubleSpaceTapAddsPunctuationSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV29doubleSpaceTapAddsPunctuationSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV29doubleSpaceTapAddsPunctuationSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV29doubleSpaceTapAddsPunctuationSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV29doubleSpaceTapAddsPunctuationSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV29doubleSpaceTapAddsPunctuationSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "swipeTyping",
+            "printedName": "swipeTyping",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV11swipeTypingSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV11swipeTypingSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV11swipeTypingSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV11swipeTypingSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV11swipeTypingSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV11swipeTypingSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV11swipeTypingSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV11swipeTypingSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "swipeLeftToDelete",
+            "printedName": "swipeLeftToDelete",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV17swipeLeftToDeleteSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV17swipeLeftToDeleteSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV17swipeLeftToDeleteSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV17swipeLeftToDeleteSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV17swipeLeftToDeleteSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV17swipeLeftToDeleteSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV17swipeLeftToDeleteSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV17swipeLeftToDeleteSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoCorrectAfterPunctuation",
+            "printedName": "autoCorrectAfterPunctuation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV27autoCorrectAfterPunctuationSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV27autoCorrectAfterPunctuationSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV27autoCorrectAfterPunctuationSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV27autoCorrectAfterPunctuationSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV27autoCorrectAfterPunctuationSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV27autoCorrectAfterPunctuationSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV27autoCorrectAfterPunctuationSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV27autoCorrectAfterPunctuationSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "spacebarMovesCursor",
+            "printedName": "spacebarMovesCursor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV19spacebarMovesCursorSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV19spacebarMovesCursorSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV19spacebarMovesCursorSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV19spacebarMovesCursorSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV19spacebarMovesCursorSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV19spacebarMovesCursorSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV19spacebarMovesCursorSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV19spacebarMovesCursorSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(caseSensitive:smartPunctuation:autoCapitalization:autoLearn:doubleSpaceTapAddsPunctuation:swipeTyping:swipeLeftToDelete:autoCorrectAfterPunctuation:spacebarMovesCursor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardSettings",
+                "printedName": "QuantActionsSDK.KeyboardSettings",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV13caseSensitive16smartPunctuation18autoCapitalization0J5Learn018doubleSpaceTapAddsI011swipeTyping0Q12LeftToDelete0j12CorrectAfterI019spacebarMovesCursorACSb_S8btcfc",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13caseSensitive16smartPunctuation18autoCapitalization0J5Learn018doubleSpaceTapAddsI011swipeTyping0Q12LeftToDelete0j12CorrectAfterI019spacebarMovesCursorACSb_S8btcfc",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardSettings",
+                "printedName": "QuantActionsSDK.KeyboardSettings",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "QuantActionsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV6encode2toys7Encoder_p_tKF",
+            "moduleName": "QuantActionsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardSettings",
+                "printedName": "QuantActionsSDK.KeyboardSettings",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardSettings",
+                "printedName": "QuantActionsSDK.KeyboardSettings",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV2eeoiySbAC_ACtFZ",
+            "moduleName": "QuantActionsSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15QuantActionsSDK16KeyboardSettingsV",
+        "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "SleepScoreElement",
         "printedName": "SleepScoreElement",
@@ -6563,6 +7548,75 @@
             ],
             "isFromExtension": true,
             "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "keyboardSettings",
+            "printedName": "keyboardSettings",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardSettings",
+                "printedName": "QuantActionsSDK.KeyboardSettings",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK2QAV16keyboardSettingsAA08KeyboardF0Vvp",
+            "mangledName": "$s15QuantActionsSDK2QAV16keyboardSettingsAA08KeyboardF0Vvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyboardSettings",
+                    "printedName": "QuantActionsSDK.KeyboardSettings",
+                    "usr": "s:15QuantActionsSDK16KeyboardSettingsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK2QAV16keyboardSettingsAA08KeyboardF0Vvg",
+                "mangledName": "$s15QuantActionsSDK2QAV16keyboardSettingsAA08KeyboardF0Vvg",
+                "moduleName": "QuantActionsSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(keyboardSettings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardSettings",
+                "printedName": "QuantActionsSDK.KeyboardSettings",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV6update16keyboardSettingsyAA08KeyboardG0V_tF",
+            "mangledName": "$s15QuantActionsSDK2QAV6update16keyboardSettingsyAA08KeyboardG0V_tF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -9189,126 +10243,133 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 335,
+      "offset": 328,
       "length": 24,
       "value": "\"QUANTACTIONS_APP_GROUP\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 364,
+      "offset": 357,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 404,
+      "offset": 390,
       "length": 10,
       "value": "\"deviceID\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 453,
+      "offset": 432,
       "length": 11,
       "value": "\"basicInfo\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 521,
+      "offset": 493,
       "length": 29,
       "value": "\"deviceRegistrationPublicKey\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 557,
       "length": 14,
       "value": "\"lastSyncDate\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 618,
       "length": 26,
       "value": "\"isDataCollectionDisabled\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 771,
+      "offset": 683,
+      "length": 18,
+      "value": "\"keyboardSettings\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 779,
       "length": 14,
       "value": "\"test.storage\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 883,
+      "offset": 884,
       "length": 41,
       "value": "\"https:\/\/quantactions.com\/privacy-policy\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1028,
+      "offset": 1022,
       "length": 22,
       "value": "\"QUANTACTIONS_API_KEY\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1055,
+      "offset": 1049,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 1121,
       "length": 74,
       "value": "\"44270d6e-f590-4c87-a559-d13843cfa8a369d2e305-e801-4b76-9195-84577bef6d2c\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1280,
       "length": 38,
       "value": "\"ae704835-5e12-4afc-a98c-a8b3db64e9ab\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1381,
+      "offset": 1354,
       "length": 34,
       "value": "\"8897ba52cd0389816822a92bb720ae3b\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1568,
+      "offset": 1541,
       "length": 3,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1763,
+      "offset": 1736,
       "length": 15,
       "value": "\"default.realm\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1878,
+      "offset": 1851,
       "length": 34,
       "value": "\"com.quantactions.QuantActionsSDK\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2249,
+      "offset": 2222,
       "length": 7,
       "value": "\"appex\""
     },
@@ -9532,7 +10593,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/KeyboardViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1042,
+      "offset": 1246,
       "length": 3,
       "value": "100"
     },
@@ -10825,6 +11886,69 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1542,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1581,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1622,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1654,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1706,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1740,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1780,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1873,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Utils\/URLRequestExtensions.swift",
       "kind": "StringLiteral",
       "offset": 168,
@@ -10925,28 +12049,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 846,
+      "offset": 877,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1410,
+      "offset": 1441,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1767,
+      "offset": 1798,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2952,
+      "offset": 2983,
       "length": 10,
       "value": "\"openURL:\""
     },
@@ -11205,56 +12329,56 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 2372,
+      "offset": 2373,
       "length": 16,
       "value": "\"AppleKeyboards\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4660,
+      "offset": 4661,
       "length": 65,
       "value": "\"Couldn't sync JournalEvent items: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4724,
+      "offset": 4725,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4861,
+      "offset": 4862,
       "length": 57,
       "value": "\"Couldn't sync Journaling: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4917,
+      "offset": 4918,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "BooleanLiteral",
-      "offset": 8801,
+      "offset": 8802,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "BooleanLiteral",
-      "offset": 9002,
+      "offset": 9003,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 9281,
+      "offset": 9282,
       "length": 119,
       "value": "\"Missing QUANTACTIONS_API_KEY and\/or QUANTACTIONS_APP_GROUP.\nMake sure they are added to the .plist file of your app.\""
     },

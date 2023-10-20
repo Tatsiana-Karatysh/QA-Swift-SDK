@@ -48,6 +48,12 @@ public struct BasicInfo : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension QuantActionsSDK.QA {
+  public var keyboardSettings: QuantActionsSDK.KeyboardSettings {
+    get
+  }
+  public func update(keyboardSettings: QuantActionsSDK.KeyboardSettings)
+}
+extension QuantActionsSDK.QA {
   #if compiler(>=5.3) && $AsyncAwait
   public func actionSpeedMetric(participationID: Swift.String, interval: Foundation.DateInterval) async throws -> [QuantActionsSDK.DataPoint<QuantActionsSDK.DoubleValueElement>]
   #endif
@@ -161,6 +167,21 @@ public struct SleepSummaryElement : QuantActionsSDK.DataPointElement {
   public let interruptionsStop: [Foundation.Date]
   public let interruptionsNumberOfTaps: [Swift.Int]
   public let timeZone: Swift.String
+}
+public struct KeyboardSettings : Swift.Codable, Swift.Equatable {
+  public var caseSensitive: Swift.Bool
+  public var smartPunctuation: Swift.Bool
+  public var autoCapitalization: Swift.Bool
+  public var autoLearn: Swift.Bool
+  public var doubleSpaceTapAddsPunctuation: Swift.Bool
+  public var swipeTyping: Swift.Bool
+  public var swipeLeftToDelete: Swift.Bool
+  public var autoCorrectAfterPunctuation: Swift.Bool
+  public var spacebarMovesCursor: Swift.Bool
+  public init(caseSensitive: Swift.Bool = true, smartPunctuation: Swift.Bool = true, autoCapitalization: Swift.Bool = true, autoLearn: Swift.Bool = true, doubleSpaceTapAddsPunctuation: Swift.Bool = true, swipeTyping: Swift.Bool = true, swipeLeftToDelete: Swift.Bool = false, autoCorrectAfterPunctuation: Swift.Bool = true, spacebarMovesCursor: Swift.Bool = true)
+  public static func == (a: QuantActionsSDK.KeyboardSettings, b: QuantActionsSDK.KeyboardSettings) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SleepScoreElement : QuantActionsSDK.DataPointElement {
   public let sleepScore: Swift.Double
