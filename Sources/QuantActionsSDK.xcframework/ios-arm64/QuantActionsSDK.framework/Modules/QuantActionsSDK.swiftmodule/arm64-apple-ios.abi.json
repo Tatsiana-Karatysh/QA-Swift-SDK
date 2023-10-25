@@ -11565,8 +11565,15 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 9980,
+      "length": 28,
+      "value": "\"Couldn't initialize realm.\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MetricsAndTrendsRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 10255,
+      "offset": 10304,
       "length": 2,
       "value": "-2"
     },
