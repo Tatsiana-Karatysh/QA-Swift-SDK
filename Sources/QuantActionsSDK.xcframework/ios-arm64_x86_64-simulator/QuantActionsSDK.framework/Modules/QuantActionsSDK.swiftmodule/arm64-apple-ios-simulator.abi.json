@@ -4631,6 +4631,92 @@
           },
           {
             "kind": "Var",
+            "name": "autoCorrect",
+            "printedName": "autoCorrect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV11autoCorrectSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV11autoCorrectSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV11autoCorrectSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV11autoCorrectSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV11autoCorrectSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV11autoCorrectSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV11autoCorrectSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV11autoCorrectSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "autoCapitalization",
             "printedName": "autoCapitalization",
             "children": [
@@ -5232,9 +5318,181 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "hapticFeedback",
+            "printedName": "hapticFeedback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV14hapticFeedbackSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV14hapticFeedbackSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV14hapticFeedbackSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV14hapticFeedbackSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV14hapticFeedbackSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV14hapticFeedbackSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV14hapticFeedbackSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV14hapticFeedbackSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "soundFeedback",
+            "printedName": "soundFeedback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV13soundFeedbackSbvp",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13soundFeedbackSbvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV13soundFeedbackSbvg",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13soundFeedbackSbvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV13soundFeedbackSbvs",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13soundFeedbackSbvs",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK16KeyboardSettingsV13soundFeedbackSbvM",
+                "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13soundFeedbackSbvM",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(caseSensitive:smartPunctuation:autoCapitalization:autoLearn:doubleSpaceTapAddsPunctuation:swipeTyping:swipeLeftToDelete:autoCorrectAfterPunctuation:spacebarMovesCursor:)",
+            "printedName": "init(caseSensitive:smartPunctuation:autoCorrect:autoCapitalization:autoLearn:doubleSpaceTapAddsPunctuation:swipeTyping:swipeLeftToDelete:autoCorrectAfterPunctuation:spacebarMovesCursor:hapticFeedback:soundFeedback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5304,11 +5562,32 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15QuantActionsSDK16KeyboardSettingsV13caseSensitive16smartPunctuation18autoCapitalization0J5Learn018doubleSpaceTapAddsI011swipeTyping0Q12LeftToDelete0j12CorrectAfterI019spacebarMovesCursorACSb_S8btcfc",
-            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13caseSensitive16smartPunctuation18autoCapitalization0J5Learn018doubleSpaceTapAddsI011swipeTyping0Q12LeftToDelete0j12CorrectAfterI019spacebarMovesCursorACSb_S8btcfc",
+            "usr": "s:15QuantActionsSDK16KeyboardSettingsV13caseSensitive16smartPunctuation11autoCorrect0J14Capitalization0J5Learn018doubleSpaceTapAddsI011swipeTyping0R12LeftToDelete0jk5AfterI019spacebarMovesCursor14hapticFeedback13soundFeedbackACSb_S11btcfc",
+            "mangledName": "$s15QuantActionsSDK16KeyboardSettingsV13caseSensitive16smartPunctuation11autoCorrect0J14Capitalization0J5Learn018doubleSpaceTapAddsI011swipeTyping0R12LeftToDelete0jk5AfterI019spacebarMovesCursor14hapticFeedback13soundFeedbackACSb_S11btcfc",
             "moduleName": "QuantActionsSDK",
             "declAttributes": [
               "AccessControl"
@@ -11888,65 +12167,86 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1542,
+      "offset": 1813,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1581,
+      "offset": 1852,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1622,
+      "offset": 1886,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1654,
+      "offset": 1927,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1706,
+      "offset": 1959,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1740,
+      "offset": 2011,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1780,
+      "offset": 2045,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2085,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1831,
+      "offset": 2136,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1873,
+      "offset": 2178,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2215,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/KeyboardSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2251,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Utils\/URLRequestExtensions.swift",
@@ -12049,28 +12349,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 908,
+      "offset": 986,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1387,
+      "offset": 1498,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1744,
+      "offset": 1855,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2929,
+      "offset": 3040,
       "length": 10,
       "value": "\"openURL:\""
     },

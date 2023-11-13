@@ -171,6 +171,7 @@ public struct SleepSummaryElement : QuantActionsSDK.DataPointElement {
 public struct KeyboardSettings : Swift.Codable, Swift.Equatable {
   public var caseSensitive: Swift.Bool
   public var smartPunctuation: Swift.Bool
+  public var autoCorrect: Swift.Bool
   public var autoCapitalization: Swift.Bool
   public var autoLearn: Swift.Bool
   public var doubleSpaceTapAddsPunctuation: Swift.Bool
@@ -178,7 +179,9 @@ public struct KeyboardSettings : Swift.Codable, Swift.Equatable {
   public var swipeLeftToDelete: Swift.Bool
   public var autoCorrectAfterPunctuation: Swift.Bool
   public var spacebarMovesCursor: Swift.Bool
-  public init(caseSensitive: Swift.Bool = true, smartPunctuation: Swift.Bool = true, autoCapitalization: Swift.Bool = true, autoLearn: Swift.Bool = true, doubleSpaceTapAddsPunctuation: Swift.Bool = true, swipeTyping: Swift.Bool = true, swipeLeftToDelete: Swift.Bool = false, autoCorrectAfterPunctuation: Swift.Bool = true, spacebarMovesCursor: Swift.Bool = true)
+  public var hapticFeedback: Swift.Bool
+  public var soundFeedback: Swift.Bool
+  public init(caseSensitive: Swift.Bool = true, smartPunctuation: Swift.Bool = true, autoCorrect: Swift.Bool = true, autoCapitalization: Swift.Bool = true, autoLearn: Swift.Bool = true, doubleSpaceTapAddsPunctuation: Swift.Bool = true, swipeTyping: Swift.Bool = true, swipeLeftToDelete: Swift.Bool = false, autoCorrectAfterPunctuation: Swift.Bool = true, spacebarMovesCursor: Swift.Bool = true, hapticFeedback: Swift.Bool = true, soundFeedback: Swift.Bool = false)
   public static func == (a: QuantActionsSDK.KeyboardSettings, b: QuantActionsSDK.KeyboardSettings) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
