@@ -1416,6 +1416,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
         "name": "RealmSwift",
         "printedName": "RealmSwift",
         "declKind": "Import",
@@ -7714,6 +7721,34 @@
           },
           {
             "kind": "Function",
+            "name": "numberOfRecordedApps",
+            "printedName": "numberOfRecordedApps(afterDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV20numberOfRecordedApps9afterDateSi10Foundation0J0V_tF",
+            "mangledName": "$s15QuantActionsSDK2QAV20numberOfRecordedApps9afterDateSi10Foundation0J0V_tF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "journalEventKinds",
             "printedName": "journalEventKinds()",
             "children": [
@@ -10592,63 +10627,70 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1259,
+      "offset": 1216,
+      "length": 14,
+      "value": "\"recordedApps\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
       "length": 14,
       "value": "\"test.storage\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
+      "offset": 1413,
       "length": 41,
       "value": "\"https:\/\/quantactions.com\/privacy-policy\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1502,
+      "offset": 1551,
       "length": 22,
       "value": "\"QUANTACTIONS_API_KEY\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1529,
+      "offset": 1578,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1601,
+      "offset": 1650,
       "length": 74,
       "value": "\"44270d6e-f590-4c87-a559-d13843cfa8a369d2e305-e801-4b76-9195-84577bef6d2c\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1760,
+      "offset": 1809,
       "length": 38,
       "value": "\"ae704835-5e12-4afc-a98c-a8b3db64e9ab\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1834,
+      "offset": 1883,
       "length": 34,
       "value": "\"8897ba52cd0389816822a92bb720ae3b\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2021,
+      "offset": 2070,
       "length": 3,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2216,
+      "offset": 2265,
       "length": 15,
       "value": "\"default.realm\""
     },
@@ -10872,7 +10914,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/KeyboardViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1246,
+      "offset": 1678,
       "length": 3,
       "value": "100"
     },
@@ -11437,6 +11479,13 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Storage\/RecordedAppsStorage.swift",
+      "kind": "Array",
+      "offset": 234,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/SleepDataItemDTO.swift",
       "kind": "StringLiteral",
       "offset": 323,
@@ -11670,49 +11719,49 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Storage\/TapDataSessionStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1221,
+      "offset": 1039,
       "length": 51,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Storage\/TapDataSessionStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1234,
+      "offset": 1052,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Storage\/TapDataSessionStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1271,
+      "offset": 1089,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Storage\/TapDataSessionStorage.swift",
       "kind": "Array",
-      "offset": 1416,
+      "offset": 1234,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Storage\/TapDataSessionStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 1536,
+      "offset": 1354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Storage\/TapDataSessionStorage.swift",
       "kind": "Array",
-      "offset": 1809,
+      "offset": 1627,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Storage\/TapDataSessionStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 2010,
+      "offset": 1828,
       "length": 5,
       "value": "false"
     },
@@ -12370,7 +12419,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3040,
+      "offset": 3043,
       "length": 10,
       "value": "\"openURL:\""
     },
@@ -12629,56 +12678,56 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 2373,
+      "offset": 2433,
       "length": 16,
       "value": "\"AppleKeyboards\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4661,
+      "offset": 4721,
       "length": 65,
       "value": "\"Couldn't sync JournalEvent items: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4725,
+      "offset": 4785,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4862,
+      "offset": 4922,
       "length": 57,
       "value": "\"Couldn't sync Journaling: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 4918,
+      "offset": 4978,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "BooleanLiteral",
-      "offset": 8802,
+      "offset": 8862,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "BooleanLiteral",
-      "offset": 9003,
+      "offset": 9063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 9282,
+      "offset": 9565,
       "length": 119,
       "value": "\"Missing QUANTACTIONS_API_KEY and\/or QUANTACTIONS_APP_GROUP.\nMake sure they are added to the .plist file of your app.\""
     },

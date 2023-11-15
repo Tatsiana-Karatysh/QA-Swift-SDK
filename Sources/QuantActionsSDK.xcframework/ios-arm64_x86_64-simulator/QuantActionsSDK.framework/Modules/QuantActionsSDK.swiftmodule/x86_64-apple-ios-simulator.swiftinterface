@@ -307,6 +307,7 @@ public struct QA {
   #endif
   public func pauseDataCollection()
   public func resumeDataCollection()
+  public func numberOfRecordedApps(afterDate date: Foundation.Date) -> Swift.Int
 }
 public struct QAError {
   public let description: Swift.String
