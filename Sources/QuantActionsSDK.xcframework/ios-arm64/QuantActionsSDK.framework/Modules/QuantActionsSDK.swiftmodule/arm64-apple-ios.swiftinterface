@@ -92,26 +92,32 @@ extension QuantActionsSDK.QA {
   public func trend(participationID: Swift.String, interval: Foundation.DateInterval, trendKind: QuantActionsSDK.TrendKind) async throws -> [QuantActionsSDK.DataPoint<QuantActionsSDK.TrendElement>]
   #endif
 }
-public struct SubscriptionWithQuestionnaires {
+public struct SubscriptionWithQuestionnaires : Swift.Codable {
   public let cohort: QuantActionsSDK.Cohort
   public let questionnaires: [QuantActionsSDK.Questionnaire]
   public let subscriptionID: Swift.String
   public let tapDeviceIDs: [Swift.String]
   public let premiumFeaturesTTL: Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct Cohort {
+public struct Cohort : Swift.Codable {
   public let id: Swift.String
   public let name: Swift.String
   public let privacyPolicy: Swift.String
   public let canWidthdraw: Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct Questionnaire {
+public struct Questionnaire : Swift.Codable {
   public let id: Swift.String
   public let name: Swift.String
   public let description: Swift.String
   public let code: Swift.String
   public let cohortID: Swift.String
   public let body: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension QuantActionsSDK.QA {
   public var isHealthKitAuthorizationStatusDetermined: Swift.Bool {
@@ -281,12 +287,14 @@ extension Swift.Array where Element == QuantActionsSDK.DataPoint<QuantActionsSDK
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-public struct Subscription {
+public struct Subscription : Swift.Identifiable {
   public let id: Swift.String
   public let deviceIDs: [Swift.String]
   public let cohortID: Swift.String
   public let cohortName: Swift.String
   public let premiumFeaturesTTL: Swift.Int
+  public let privacyPolicy: Swift.String
+  public typealias ID = Swift.String
 }
 public struct QA {
   public static let shared: QuantActionsSDK.QA
@@ -302,6 +310,9 @@ public struct QA {
   public var isKeyboardAdded: Swift.Bool? {
     get
   }
+  public var subscriptions: [QuantActionsSDK.Subscription] {
+    get
+  }
   #if compiler(>=5.3) && $AsyncAwait
   public func setup(basicInfo: QuantActionsSDK.BasicInfo = BasicInfo()) async throws -> Swift.Bool
   #endif
@@ -312,6 +323,7 @@ public struct QA {
   public func leaveCohort(participationID: Swift.String) async throws
   #endif
   #if compiler(>=5.3) && $AsyncAwait
+  @available(*, deprecated, message: "Use subscriptions() instead to get a list of all subscriptions user is registered to.")
   public func subscription() async throws -> QuantActionsSDK.Subscription?
   #endif
   #if compiler(>=5.3) && $AsyncAwait

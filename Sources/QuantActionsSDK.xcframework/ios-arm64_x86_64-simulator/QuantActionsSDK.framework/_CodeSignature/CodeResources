@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LZeslhty2gPfnGfA577YCTIcs2I=
+		A6/5jy9IQYJDg7eYdhirBzQgB8w=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MK/GjVsF5hq6q0ZYeyiir1iyht8=
+		J2ikMo8iJ2PLcEeIQjgb60F7zQ0=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		l+Sm9qhJRLxh4V3W9nlrc4/XHCs=
+		1N/RpNLG1u2XxxspRLAwvho/a8M=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Otn5aS24CR2Cz8OB16tAIOq/l7U=
+		XvopIhxHlvPNqD2il7I6fxLAj1g=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		l+Sm9qhJRLxh4V3W9nlrc4/XHCs=
+		1N/RpNLG1u2XxxspRLAwvho/a8M=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yl3HJnb17dpO26ykKojyjR7ON9g=
+		2U5tuJF/ejpRF/gSjW6y+n9KQDc=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MK/GjVsF5hq6q0ZYeyiir1iyht8=
+		J2ikMo8iJ2PLcEeIQjgb60F7zQ0=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FWL2L8WhtB+eiz1gWBDjUvqE10E=
+		XbJVjcncWJck7SJBW3vmHc7APL4=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9KZzXwA5m4t2JHXkQwzQPRM3yWk=
+		lMba8N95xp7Jc432V1ZxRrP6FLg=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FWL2L8WhtB+eiz1gWBDjUvqE10E=
+		XbJVjcncWJck7SJBW3vmHc7APL4=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XrxeoG0f3Adro6hUiPaxL73tdgQ=
+		oJJKUeflR5uC47m7aSJnE6WTKBc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,70 +92,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ix6oD9a3TAl/BhJsLl4H+EkmJ6xbF9n7DC4Gv4q4pMQ=
+			KCgUEbGIqygOU3GV1RcR5eciv53qZpH2QkKG6PwbaM0=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ySLkxp6QT9SR/EYFzMiY9gQVEaPa5Hn0fNgc6A3VxZM=
+			eEANtb6HvVCRFkkFl0wagEiNjg/XXwRMOqN43BimxZc=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uuJGHeLgdcgzmzuBtg1XZ3Hv7T2D3MOtEdUzyCo5jRI=
+			DEVo6mzJFA2V6FQ/OeZ+YSfHeA25grQLEbgJOBfV5JI=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ySLkxp6QT9SR/EYFzMiY9gQVEaPa5Hn0fNgc6A3VxZM=
+			eEANtb6HvVCRFkkFl0wagEiNjg/XXwRMOqN43BimxZc=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JADnQ1OGW6YiSuDcwrKG68dIif9BumAOTGeC1D9VAZU=
+			p0rnKyeVURNnjmI9G3CFfdvWMVOGCtSZF1aSjXKw2F8=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ix6oD9a3TAl/BhJsLl4H+EkmJ6xbF9n7DC4Gv4q4pMQ=
+			KCgUEbGIqygOU3GV1RcR5eciv53qZpH2QkKG6PwbaM0=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fYYDS5KYLyzBzLargL+SfIfcQEc31AxWeqSZRVEurPk=
+			0XweuK+xPZceZATIfpDfRvLWGzUv7k/H4mGsxK9Q/SI=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			exQ3IeD+ooZr6lDNeFJHjPUG1ufAbvFvQ1u/30Icsms=
+			ymYUdmi8pAa9QsaCLU9FpcbxcFrSXPKwPIY2cbXFSO8=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fYYDS5KYLyzBzLargL+SfIfcQEc31AxWeqSZRVEurPk=
+			0XweuK+xPZceZATIfpDfRvLWGzUv7k/H4mGsxK9Q/SI=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKsulmPhOuvbZ4LWDSL32uy9yfGb0CAH2dy/+EnJKDk=
+			BsXJ1S3wTu/iyx9BfHT6UZMyAIO8PcIjpQW8lB5lmP4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
