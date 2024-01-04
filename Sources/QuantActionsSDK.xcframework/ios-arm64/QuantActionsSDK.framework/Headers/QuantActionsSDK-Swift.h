@@ -291,6 +291,7 @@ SWIFT_RESILIENT_CLASS("_TtC15QuantActionsSDK24QAKeyboardViewController")
 @property (nonatomic, readonly, strong) UIImage * _Nullable appIcon;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
 - (void)dataCollection:(NSString * _Nonnull)data sessionId:(NSString * _Nonnull)sessionId;
 - (void)triggerOpenApp;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

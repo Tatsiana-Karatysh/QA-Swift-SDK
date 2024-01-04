@@ -2,9 +2,11 @@
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name QuantActionsSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreMotion
 import FleksyAppsCore
 import FleksyKeyboardSDK
 import Foundation
+import HealthKit
 import OSLog
 @_exported import QuantActionsSDK
 import Swift
@@ -52,6 +54,14 @@ extension QuantActionsSDK.QA {
     get
   }
   public func update(keyboardSettings: QuantActionsSDK.KeyboardSettings)
+}
+extension QuantActionsSDK.QA {
+  public var coreMotionAuthorizationStatus: CoreMotion.CMAuthorizationStatus {
+    get
+  }
+  #if compiler(>=5.3) && $AsyncAwait
+  public func requestCoreMotionAuthorization() async throws -> Swift.Bool
+  #endif
 }
 extension QuantActionsSDK.QA {
   #if compiler(>=5.3) && $AsyncAwait
@@ -102,6 +112,14 @@ public struct Questionnaire {
   public let code: Swift.String
   public let cohortID: Swift.String
   public let body: Swift.String
+}
+extension QuantActionsSDK.QA {
+  public var isHealthKitAuthorizationStatusDetermined: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $AsyncAwait
+  public func requestHealthKitAuthorization() async throws -> Swift.Bool
+  #endif
 }
 public enum TrendKind {
   case cognitiveFitness
@@ -256,6 +274,7 @@ extension Swift.Array where Element == QuantActionsSDK.DataPoint<QuantActionsSDK
   @_Concurrency.MainActor(unsafe) override public func createConfiguration() -> FleksyKeyboardSDK.KeyboardConfiguration
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func dataCollection(_ data: Swift.String, sessionId: Swift.String)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func triggerOpenApp()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
