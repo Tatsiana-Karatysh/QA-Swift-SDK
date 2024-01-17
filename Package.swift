@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/FleksySDK/FleksySDK-iOS", exact: "4.17.1"),
+        .package(url: "https://github.com/FleksySDK/FleksySDK-iOS", exact: "4.19.1"),
         .package(url: "https://github.com/realm/realm-swift.git", exact: "10.42.1"),
     ],
     targets: [
