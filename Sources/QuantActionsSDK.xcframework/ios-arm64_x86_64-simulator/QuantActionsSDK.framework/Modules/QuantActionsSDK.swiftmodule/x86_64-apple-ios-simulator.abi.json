@@ -15106,30 +15106,37 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/NoFullAccessKeyboardApp\/NoFullAccessView.swift",
       "kind": "IntegerLiteral",
-      "offset": 134,
+      "offset": 165,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/NoFullAccessKeyboardApp\/NoFullAccessView.swift",
       "kind": "StringLiteral",
-      "offset": 157,
-      "length": 61,
-      "value": "\"TapCounter keyboard needs full access to function properly.\""
+      "offset": 188,
+      "length": 52,
+      "value": "\"TapCounter keyboard needs full access to function.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/NoFullAccessKeyboardApp\/NoFullAccessView.swift",
       "kind": "StringLiteral",
-      "offset": 287,
+      "offset": 321,
       "length": 78,
       "value": "\"Please go to device Settings -> TapCounter -> Keyboards -> Allow Full Access\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/NoFullAccessKeyboardApp\/NoFullAccessView.swift",
       "kind": "StringLiteral",
-      "offset": 436,
+      "offset": 482,
       "length": 16,
       "value": "\"Go to Settings\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/NoFullAccessKeyboardApp\/NoFullAccessView.swift",
+      "kind": "StringLiteral",
+      "offset": 596,
+      "length": 6,
+      "value": "\"Skip\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/SubmitNoteRequest.swift",
