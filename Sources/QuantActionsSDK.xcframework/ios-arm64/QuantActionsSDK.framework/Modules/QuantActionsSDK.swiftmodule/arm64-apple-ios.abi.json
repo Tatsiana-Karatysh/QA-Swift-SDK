@@ -15135,8 +15135,8 @@
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/NoFullAccessKeyboardApp\/NoFullAccessView.swift",
       "kind": "StringLiteral",
       "offset": 596,
-      "length": 6,
-      "value": "\"Skip\""
+      "length": 24,
+      "value": "\"Skip (Not Recommended)\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/SubmitNoteRequest.swift",

@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IBj8CQI9yt5S40LCJ7W1eTNjWDw=
+		myBWJIzJzFreFBwzrbpUV1WN2aE=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6JiocfXBefmwhjpzTXTVZ34eENA=
+		VDYCNJteg+YP/SF3XO8jeyIGj3A=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6JiocfXBefmwhjpzTXTVZ34eENA=
+		VDYCNJteg+YP/SF3XO8jeyIGj3A=
 		</data>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dumYDOZGEMwRuyHTuWNLk3kuftdXeHzCYZJ73nKHXyY=
+			bWjL+b5kFSLQngq63DWJ/XuZovl33onDxwvvaw4PJrw=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dumYDOZGEMwRuyHTuWNLk3kuftdXeHzCYZJ73nKHXyY=
+			bWjL+b5kFSLQngq63DWJ/XuZovl33onDxwvvaw4PJrw=
 			</data>
 		</dict>
 		<key>Modules/QuantActionsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
