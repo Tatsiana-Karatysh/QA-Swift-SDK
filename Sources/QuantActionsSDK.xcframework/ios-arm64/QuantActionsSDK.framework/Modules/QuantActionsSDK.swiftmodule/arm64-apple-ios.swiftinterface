@@ -218,6 +218,9 @@ public struct SleepScoreElement : QuantActionsSDK.DataPointElement {
   public let wakeDate: Foundation.Date
   public let timeZone: Swift.String
 }
+extension QuantActionsSDK.QA {
+  public func update(pushNotificationsToken token: Swift.String)
+}
 public struct JournalEventKind : Swift.Hashable {
   public let id: Swift.String
   public let publicName: Swift.String
@@ -274,7 +277,7 @@ extension Swift.Array where Element == QuantActionsSDK.DataPoint<QuantActionsSDK
   }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class QAKeyboardViewController : FleksyKeyboardSDK.FKKeyboardViewController {
-  @_Concurrency.MainActor(unsafe) @objc override public var appIcon: UIKit.UIImage? {
+  @_Concurrency.MainActor(unsafe) @objc override open var appIcon: UIKit.UIImage? {
     @objc get
   }
   @_Concurrency.MainActor(unsafe) override public func createConfiguration() -> FleksyKeyboardSDK.KeyboardConfiguration

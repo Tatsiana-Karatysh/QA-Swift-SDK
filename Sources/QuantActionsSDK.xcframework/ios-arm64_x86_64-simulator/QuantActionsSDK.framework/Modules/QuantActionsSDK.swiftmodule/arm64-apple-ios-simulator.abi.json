@@ -6811,6 +6811,7 @@
             "mangledName": "$s15QuantActionsSDK24QAKeyboardViewControllerC7appIconSo7UIImageCSgvp",
             "moduleName": "QuantActionsSDK",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "appIcon",
             "declAttributes": [
               "ObjC",
@@ -6844,6 +6845,7 @@
                 "mangledName": "$s15QuantActionsSDK24QAKeyboardViewControllerC7appIconSo7UIImageCSgvg",
                 "moduleName": "QuantActionsSDK",
                 "overriding": true,
+                "isOpen": true,
                 "objc_name": "appIcon",
                 "declAttributes": [
                   "ObjC"
@@ -8976,6 +8978,33 @@
             ],
             "isFromExtension": true,
             "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(pushNotificationsToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15QuantActionsSDK2QAV6update22pushNotificationsTokenySS_tF",
+            "mangledName": "$s15QuantActionsSDK2QAV6update22pushNotificationsTokenySS_tF",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -11235,63 +11264,70 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1515,
+      "offset": 1487,
+      "length": 29,
+      "value": "\"firebaseCloudMessagingToken\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1594,
       "length": 14,
       "value": "\"test.storage\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1620,
+      "offset": 1699,
       "length": 41,
       "value": "\"https:\/\/quantactions.com\/privacy-policy\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1758,
+      "offset": 1837,
       "length": 22,
       "value": "\"QUANTACTIONS_API_KEY\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1785,
+      "offset": 1864,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1857,
+      "offset": 1936,
       "length": 74,
       "value": "\"44270d6e-f590-4c87-a559-d13843cfa8a369d2e305-e801-4b76-9195-84577bef6d2c\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2016,
+      "offset": 2095,
       "length": 38,
       "value": "\"ae704835-5e12-4afc-a98c-a8b3db64e9ab\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2090,
+      "offset": 2169,
       "length": 34,
       "value": "\"8897ba52cd0389816822a92bb720ae3b\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2277,
+      "offset": 2356,
       "length": 3,
       "value": "10"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2472,
+      "offset": 2551,
       "length": 15,
       "value": "\"default.realm\""
     },
@@ -11424,219 +11460,233 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 542,
+      "offset": 575,
       "length": 64,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 566,
+      "offset": 599,
       "length": 1,
       "value": "\"\/TapDevices\/\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 625,
       "length": 1,
       "value": "\"\/updateDevice\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 890,
+      "offset": 923,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 957,
       "length": 16,
       "value": "\"androidVersion\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 975,
+      "offset": 1008,
       "length": 20,
       "value": "\"deviceManufacturer\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 1056,
       "length": 13,
       "value": "\"deviceModel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1061,
+      "offset": 1094,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 1131,
       "length": 12,
       "value": "\"apiVersion\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1170,
       "length": 12,
       "value": "\"deviceType\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1175,
+      "offset": 1208,
       "length": 11,
       "value": "\"permAppId\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1248,
       "length": 14,
       "value": "\"permDrawOver\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1258,
+      "offset": 1291,
       "length": 14,
       "value": "\"permLocation\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1333,
       "length": 13,
       "value": "\"permContact\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1341,
+      "offset": 1374,
       "length": 5,
       "value": "\"age\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1369,
+      "offset": 1402,
       "length": 8,
       "value": "\"gender\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1413,
+      "offset": 1446,
       "length": 21,
       "value": "\"selfDeclaredHealthy\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 890,
+      "offset": 1499,
+      "length": 17,
+      "value": "\"fireBaseTokenId\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 923,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 957,
       "length": 16,
       "value": "\"androidVersion\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 975,
+      "offset": 1008,
       "length": 20,
       "value": "\"deviceManufacturer\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 1056,
       "length": 13,
       "value": "\"deviceModel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1061,
+      "offset": 1094,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 1131,
       "length": 12,
       "value": "\"apiVersion\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1170,
       "length": 12,
       "value": "\"deviceType\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1175,
+      "offset": 1208,
       "length": 11,
       "value": "\"permAppId\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1248,
       "length": 14,
       "value": "\"permDrawOver\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1258,
+      "offset": 1291,
       "length": 14,
       "value": "\"permLocation\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1333,
       "length": 13,
       "value": "\"permContact\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1341,
+      "offset": 1374,
       "length": 5,
       "value": "\"age\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1369,
+      "offset": 1402,
       "length": 8,
       "value": "\"gender\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1413,
+      "offset": 1446,
       "length": 21,
       "value": "\"selfDeclaredHealthy\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Requests\/UpdateDeviceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1499,
+      "length": 17,
+      "value": "\"fireBaseTokenId\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/KeyboardViewModel.swift",
@@ -11816,42 +11866,42 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/DeviceInfoFactory.swift",
       "kind": "StringLiteral",
-      "offset": 202,
+      "offset": 282,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/DeviceInfoFactory.swift",
       "kind": "StringLiteral",
-      "offset": 224,
+      "offset": 304,
       "length": 4,
       "value": "\"-1\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/DeviceInfoFactory.swift",
       "kind": "StringLiteral",
-      "offset": 443,
+      "offset": 523,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/DeviceInfoFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 485,
+      "offset": 565,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/DeviceInfoFactory.swift",
       "kind": "StringLiteral",
-      "offset": 561,
+      "offset": 641,
       "length": 7,
       "value": "\"Phone\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Utils\/DeviceInfoFactory.swift",
       "kind": "StringLiteral",
-      "offset": 571,
+      "offset": 651,
       "length": 8,
       "value": "\"Tablet\""
     },
@@ -12320,21 +12370,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MotionActivityRepository.swift",
       "kind": "BooleanLiteral",
-      "offset": 1342,
+      "offset": 1304,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MotionActivityRepository.swift",
       "kind": "StringLiteral",
-      "offset": 1521,
+      "offset": 1483,
       "length": 42,
       "value": "\"CMAuthorizationStatus is not determined.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/MotionActivityRepository.swift",
       "kind": "Array",
-      "offset": 2620,
+      "offset": 2631,
       "length": 2,
       "value": "[]"
     },
@@ -12691,14 +12741,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/HealthKitSleepDataRepository.swift",
       "kind": "BooleanLiteral",
-      "offset": 1812,
+      "offset": 1889,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/Repositories\/HealthKitSleepDataRepository.swift",
       "kind": "Array",
-      "offset": 2666,
+      "offset": 2743,
       "length": 2,
       "value": "[]"
     },
@@ -13391,35 +13441,35 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "StringLiteral",
-      "offset": 283,
+      "offset": 281,
       "length": 14,
       "value": "\"SettingsIcon\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1048,
+      "offset": 1046,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1560,
+      "offset": 1558,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1917,
+      "offset": 1915,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/QAKeyboardViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3309,
+      "offset": 3307,
       "length": 10,
       "value": "\"openURL:\""
     },
@@ -13762,49 +13812,35 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 6556,
-      "length": 67,
-      "value": "\"Couldn't sync motion activity data: \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
-      "kind": "StringLiteral",
-      "offset": 6622,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
-      "kind": "StringLiteral",
-      "offset": 6803,
+      "offset": 6560,
       "length": 67,
       "value": "\"Couldn't sync HealthKit sleep data: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 6869,
+      "offset": 6626,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "BooleanLiteral",
-      "offset": 10881,
+      "offset": 10638,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "BooleanLiteral",
-      "offset": 11082,
+      "offset": 10839,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 11584,
+      "offset": 11341,
       "length": 119,
       "value": "\"Missing QUANTACTIONS_API_KEY and\/or QUANTACTIONS_APP_GROUP.\nMake sure they are added to the .plist file of your app.\""
     },
@@ -15022,86 +15058,100 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 754,
       "length": 12,
       "value": "\"iOSVersion\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 795,
       "length": 20,
       "value": "\"deviceManufacturer\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 679,
+      "offset": 837,
       "length": 13,
       "value": "\"deviceModel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 717,
+      "offset": 875,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 754,
+      "offset": 912,
       "length": 12,
       "value": "\"SDKversion\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 787,
+      "offset": 945,
       "length": 12,
       "value": "\"deviceType\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 1001,
+      "length": 29,
+      "value": "\"firebaseCloudMessagingToken\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 754,
       "length": 12,
       "value": "\"iOSVersion\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 795,
       "length": 20,
       "value": "\"deviceManufacturer\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 679,
+      "offset": 837,
       "length": 13,
       "value": "\"deviceModel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 717,
+      "offset": 875,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 754,
+      "offset": 912,
       "length": 12,
       "value": "\"SDKversion\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 787,
+      "offset": 945,
       "length": 12,
       "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
+      "length": 29,
+      "value": "\"firebaseCloudMessagingToken\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/NoFullAccessKeyboardApp\/NoFullAccessView.swift",
