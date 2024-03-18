@@ -7205,6 +7205,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -7276,6 +7283,190 @@
         "printedName": "FleksyKeyboardSDK",
         "declKind": "Import",
         "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuantActionsKeyboardLanguagesView",
+        "printedName": "QuantActionsKeyboardLanguagesView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "closeAction",
+            "printedName": "closeAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK0aB21KeyboardLanguagesViewV11closeActionyycvp",
+            "mangledName": "$s15QuantActionsSDK0aB21KeyboardLanguagesViewV11closeActionyycvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK0aB21KeyboardLanguagesViewV11closeActionyycvg",
+                "mangledName": "$s15QuantActionsSDK0aB21KeyboardLanguagesViewV11closeActionyycvg",
+                "moduleName": "QuantActionsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LanguagesView",
+                "printedName": "QuantActionsSDK.LanguagesView",
+                "usr": "s:15QuantActionsSDK13LanguagesViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK0aB21KeyboardLanguagesViewV4bodyQrvp",
+            "mangledName": "$s15QuantActionsSDK0aB21KeyboardLanguagesViewV4bodyQrvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LanguagesView",
+                    "printedName": "QuantActionsSDK.LanguagesView",
+                    "usr": "s:15QuantActionsSDK13LanguagesViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK0aB21KeyboardLanguagesViewV4bodyQrvg",
+                "mangledName": "$s15QuantActionsSDK0aB21KeyboardLanguagesViewV4bodyQrvg",
+                "moduleName": "QuantActionsSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(closeAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuantActionsKeyboardLanguagesView",
+                "printedName": "QuantActionsSDK.QuantActionsKeyboardLanguagesView",
+                "usr": "s:15QuantActionsSDK0aB21KeyboardLanguagesViewV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15QuantActionsSDK0aB21KeyboardLanguagesViewV11closeActionACyyc_tcfc",
+            "mangledName": "$s15QuantActionsSDK0aB21KeyboardLanguagesViewV11closeActionACyyc_tcfc",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15QuantActionsSDK0aB21KeyboardLanguagesViewV",
+        "mangledName": "$s15QuantActionsSDK0aB21KeyboardLanguagesViewV",
+        "moduleName": "QuantActionsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LanguagesView",
+                    "printedName": "QuantActionsSDK.LanguagesView",
+                    "usr": "s:15QuantActionsSDK13LanguagesViewV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -9601,6 +9792,34 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "QuantActionsSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Array",
         "printedName": "Array",
@@ -10861,48 +11080,39 @@
           },
           {
             "kind": "Conformance",
-            "name": "DataProtocol",
-            "printedName": "DataProtocol",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "Regions",
-                "printedName": "Regions",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CollectionOfOne",
-                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.UInt8]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt8",
-                            "printedName": "Swift.UInt8",
-                            "usr": "s:s5UInt8V"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:s15CollectionOfOneV"
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
                   }
                 ]
               }
             ],
-            "usr": "s:10Foundation12DataProtocolP",
-            "mangledName": "$s10Foundation12DataProtocolP"
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
           },
           {
             "kind": "Conformance",
-            "name": "MutableDataProtocol",
-            "printedName": "MutableDataProtocol",
-            "usr": "s:10Foundation19MutableDataProtocolP",
-            "mangledName": "$s10Foundation19MutableDataProtocolP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
           },
           {
             "kind": "Conformance",
@@ -10948,39 +11158,48 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
             "children": [
               {
                 "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
+                "name": "Regions",
+                "printedName": "Regions",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NSArray",
-                    "printedName": "Foundation.NSArray",
-                    "usr": "c:objc(cs)NSArray"
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
                   }
                 ]
               }
             ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
           },
           {
             "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ContiguousBytes",
-            "printedName": "ContiguousBytes",
-            "usr": "s:10Foundation15ContiguousBytesP",
-            "mangledName": "$s10Foundation15ContiguousBytesP"
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
           },
           {
             "kind": "Conformance",
@@ -12405,14 +12624,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/BasicInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 657,
+      "offset": 757,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Domain\/Model\/BasicInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 731,
+      "offset": 831,
       "length": 5,
       "value": "false"
     },
@@ -13658,91 +13877,91 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 893,
       "length": 14,
       "value": "\"English (US)\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 490,
+      "offset": 976,
       "length": 7,
       "value": "\"en-US\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 581,
+      "offset": 1067,
       "length": 7,
       "value": "\"Dutch\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 657,
+      "offset": 1143,
       "length": 7,
       "value": "\"nl-NL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 1234,
       "length": 8,
       "value": "\"German\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 1311,
       "length": 7,
       "value": "\"de-DE\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 916,
+      "offset": 1402,
       "length": 9,
       "value": "\"Italian\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 1480,
       "length": 7,
       "value": "\"it-IT\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1571,
       "length": 13,
       "value": "\"French (FR)\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 1167,
+      "offset": 1653,
       "length": 7,
       "value": "\"fr-FR\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 1251,
+      "offset": 1737,
       "length": 17,
       "value": "\"Select language\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 1968,
+      "offset": 2454,
       "length": 11,
       "value": "\"Languages\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Keyboard\/LanguagesKeyboardApp\/Languages\/LanguagesView.swift",
       "kind": "StringLiteral",
-      "offset": 2148,
+      "offset": 2634,
       "length": 6,
       "value": "\"Done\""
     },
@@ -15320,6 +15539,13 @@
       "offset": 1600,
       "length": 3,
       "value": "\"L\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/QuantActionsSDK-emomzdehypewutfwovkqczowqoyh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/QuantActionsSDK\/IntermediateBuildFilesPath\/QuantActionsSDK.build\/Release-iphonesimulator\/QuantActionsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 737,
+      "length": 14,
+      "value": "\"SettingsIcon\""
     }
   ]
 }
