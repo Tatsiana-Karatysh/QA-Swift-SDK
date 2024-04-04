@@ -326,6 +326,9 @@ public struct QA {
   public var subscriptions: [QuantActionsSDK.Subscription] {
     get
   }
+  public var basicInfo: QuantActionsSDK.BasicInfo? {
+    get
+  }
   #if compiler(>=5.3) && $AsyncAwait
   public func setup(basicInfo: QuantActionsSDK.BasicInfo = BasicInfo()) async throws -> Swift.Bool
   #endif

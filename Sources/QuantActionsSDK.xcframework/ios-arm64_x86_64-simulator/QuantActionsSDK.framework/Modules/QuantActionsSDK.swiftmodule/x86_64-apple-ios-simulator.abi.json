@@ -8087,6 +8087,63 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "basicInfo",
+            "printedName": "basicInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "QuantActionsSDK.BasicInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BasicInfo",
+                    "printedName": "QuantActionsSDK.BasicInfo",
+                    "usr": "s:15QuantActionsSDK9BasicInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15QuantActionsSDK2QAV9basicInfoAA05BasicF0VSgvp",
+            "mangledName": "$s15QuantActionsSDK2QAV9basicInfoAA05BasicF0VSgvp",
+            "moduleName": "QuantActionsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "QuantActionsSDK.BasicInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BasicInfo",
+                        "printedName": "QuantActionsSDK.BasicInfo",
+                        "usr": "s:15QuantActionsSDK9BasicInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15QuantActionsSDK2QAV9basicInfoAA05BasicF0VSgvg",
+                "mangledName": "$s15QuantActionsSDK2QAV9basicInfoAA05BasicF0VSgvg",
+                "moduleName": "QuantActionsSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "setup",
             "printedName": "setup(basicInfo:)",
@@ -12015,42 +12072,42 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
       "kind": "StringLiteral",
-      "offset": 269,
-      "length": 23,
-      "value": "\"tapping-time-interval\""
+      "offset": 247,
+      "length": 11,
+      "value": "\"proxy-crt\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
       "kind": "StringLiteral",
-      "offset": 330,
+      "offset": 296,
       "length": 6,
       "value": "\"ci-l\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
       "kind": "StringLiteral",
-      "offset": 375,
+      "offset": 341,
       "length": 6,
       "value": "\"ci-h\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
       "kind": "StringLiteral",
-      "offset": 269,
-      "length": 23,
-      "value": "\"tapping-time-interval\""
+      "offset": 247,
+      "length": 11,
+      "value": "\"proxy-crt\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
       "kind": "StringLiteral",
-      "offset": 330,
+      "offset": 296,
       "length": 6,
       "value": "\"ci-l\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/Data\/API\/Models\/Statistics\/ActionDataItemDTO.swift",
       "kind": "StringLiteral",
-      "offset": 375,
+      "offset": 341,
       "length": 6,
       "value": "\"ci-h\""
     },
@@ -13975,91 +14032,91 @@
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 5640,
+      "offset": 6062,
       "length": 65,
       "value": "\"Couldn't sync JournalEvent items: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 5704,
+      "offset": 6126,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 5841,
+      "offset": 6263,
       "length": 57,
       "value": "\"Couldn't sync Journaling: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 5897,
+      "offset": 6319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 6072,
+      "offset": 6494,
       "length": 65,
       "value": "\"Couldn't sync device motion data: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 6136,
+      "offset": 6558,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 6313,
+      "offset": 6735,
       "length": 67,
       "value": "\"Couldn't sync motion activity data: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 6379,
+      "offset": 6801,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 6560,
+      "offset": 6982,
       "length": 67,
       "value": "\"Couldn't sync HealthKit sleep data: \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 6626,
+      "offset": 7048,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "BooleanLiteral",
-      "offset": 10638,
+      "offset": 11060,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "BooleanLiteral",
-      "offset": 10839,
+      "offset": 11261,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/QuantActionsSDK\/QA.swift",
       "kind": "StringLiteral",
-      "offset": 11341,
+      "offset": 11763,
       "length": 119,
       "value": "\"Missing QUANTACTIONS_API_KEY and\/or QUANTACTIONS_APP_GROUP.\nMake sure they are added to the .plist file of your app.\""
     },
