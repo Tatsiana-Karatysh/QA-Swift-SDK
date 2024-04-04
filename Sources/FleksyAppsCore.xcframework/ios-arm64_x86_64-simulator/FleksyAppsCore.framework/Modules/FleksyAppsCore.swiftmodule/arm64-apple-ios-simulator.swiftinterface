@@ -1,0 +1,117 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FleksyAppsCore
+import Foundation
+import Foundation/*.Bundle*/
+import Foundation/*.ProcessInfo*/
+import Foundation/*.URL*/
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct AppConfiguration : Swift.Equatable {
+  public let currentLocale: Swift.String
+  public let availableLocales: [Swift.String]
+  public init(currentLocale: Swift.String = "", availableLocales: [Swift.String] = [])
+  public static func == (a: FleksyAppsCore.AppConfiguration, b: FleksyAppsCore.AppConfiguration) -> Swift.Bool
+}
+public protocol AppListener {
+  var currentViewMode: FleksyAppsCore.KeyboardAppViewMode? { get }
+  @_Concurrency.MainActor func show(mode: FleksyAppsCore.KeyboardAppViewMode)
+  @_Concurrency.MainActor func show(mode: FleksyAppsCore.KeyboardAppViewMode, animated: Swift.Bool)
+  @_Concurrency.MainActor func show()
+  @_Concurrency.MainActor func show(animated: Swift.Bool)
+  @discardableResult
+  @_Concurrency.MainActor func hide() -> Swift.Bool
+  @discardableResult
+  @_Concurrency.MainActor func hide(animated: Swift.Bool) -> Swift.Bool
+}
+public protocol AppTextFieldDelegate : AnyObject {
+  var placeholder: Swift.String? { get }
+  var initialText: Swift.String? { get }
+  var returnKeyType: UIKit.UIReturnKeyType { get }
+  var keyboardType: UIKit.UIKeyboardType { get }
+  var focusOnAppear: Swift.Bool { get }
+  @_Concurrency.MainActor func onAppIconAction()
+  @_Concurrency.MainActor func onCloseAction()
+  @_Concurrency.MainActor func onTextDidChange(_ text: Swift.String?)
+  @_Concurrency.MainActor func onReturnKeyAction(_ text: Swift.String?)
+  @_Concurrency.MainActor func textFieldDidBeginEditing()
+  @_Concurrency.MainActor func textFieldDidEndEditing()
+}
+extension FleksyAppsCore.AppTextFieldDelegate {
+  public var placeholder: Swift.String? {
+    get
+  }
+  public var initialText: Swift.String? {
+    get
+  }
+  public var returnKeyType: UIKit.UIReturnKeyType {
+    get
+  }
+  public var keyboardType: UIKit.UIKeyboardType {
+    get
+  }
+  public var focusOnAppear: Swift.Bool {
+    get
+  }
+  public func onAppIconAction()
+  public func onBecomeFirstResponder(_ text: Swift.String?)
+  public func onTextDidChange(_ text: Swift.String?)
+  public func onResignFirstResponder(_ text: Swift.String?)
+  public func onReturnKeyAction(_ text: Swift.String?)
+  public func textFieldDidBeginEditing()
+  public func textFieldDidEndEditing()
+}
+public struct AppTheme {
+  public let foreground: UIKit.UIColor
+  public let background: UIKit.UIColor
+  public let keyBackground: UIKit.UIColor
+  public let buttonBackground: UIKit.UIColor
+  public let accent: UIKit.UIColor
+  public let gradient: [UIKit.UIColor]
+  public let font: UIKit.UIFont
+  public init(foreground: UIKit.UIColor, background: UIKit.UIColor, keyBackground: UIKit.UIColor, buttonBackground: UIKit.UIColor, accent: UIKit.UIColor? = nil, gradient: [UIKit.UIColor] = [], font: UIKit.UIFont)
+  @available(*, deprecated, message: "Use the initializer with the keyBackground, buttonBackground and font parameters")
+  public init(foreground: UIKit.UIColor, background: UIKit.UIColor, accent: UIKit.UIColor? = nil, gradient: [UIKit.UIColor] = [])
+}
+public protocol KeyboardApp : AnyObject {
+  @_Concurrency.MainActor func initialize(listener: any FleksyAppsCore.AppListener, configuration: FleksyAppsCore.AppConfiguration)
+  func dispose()
+  var defaultViewMode: FleksyAppsCore.KeyboardAppViewMode { get }
+  @_Concurrency.MainActor func open(viewMode: FleksyAppsCore.KeyboardAppViewMode, theme: FleksyAppsCore.AppTheme) -> UIKit.UIView?
+  @_Concurrency.MainActor func close()
+  func onConfigurationChanged(_ configuration: FleksyAppsCore.AppConfiguration)
+  func onThemeChanged(_ theme: FleksyAppsCore.AppTheme)
+  func appIcon() -> UIKit.UIImage?
+  var appId: Swift.String { get }
+}
+extension FleksyAppsCore.KeyboardApp {
+  public func dispose()
+  public func close()
+  public func onConfigurationChanged(_ configuration: FleksyAppsCore.AppConfiguration)
+  public var defaultViewMode: FleksyAppsCore.KeyboardAppViewMode {
+    get
+  }
+}
+public enum TopBarMode {
+  case `default`
+  case hidden
+  case appTextField(delegate: any FleksyAppsCore.AppTextFieldDelegate, showCloseButton: Swift.Bool = true)
+}
+public enum KeyboardAppViewMode {
+  public enum Height {
+    case `default`
+    case automatic
+    public static func == (a: FleksyAppsCore.KeyboardAppViewMode.Height, b: FleksyAppsCore.KeyboardAppViewMode.Height) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  case frame(barMode: FleksyAppsCore.TopBarMode = .default, height: FleksyAppsCore.KeyboardAppViewMode.Height = .default)
+  case fullCover(height: FleksyAppsCore.KeyboardAppViewMode.Height = .default)
+}
+extension FleksyAppsCore.KeyboardAppViewMode.Height : Swift.Equatable {}
+extension FleksyAppsCore.KeyboardAppViewMode.Height : Swift.Hashable {}

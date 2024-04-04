@@ -1,0 +1,11 @@
+framework module FleksyKeyboardSDK {
+  umbrella header "FleksyKeyboardSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module FleksyKeyboardSDK.Swift {
+  header "FleksyKeyboardSDK-Swift.h"
+  requires objc
+}

@@ -1,0 +1,2955 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyAppsCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyAppsCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyAppsCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppConfiguration",
+        "printedName": "AppConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currentLocale",
+            "printedName": "currentLocale",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore16AppConfigurationV13currentLocaleSSvp",
+            "mangledName": "$s14FleksyAppsCore16AppConfigurationV13currentLocaleSSvp",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore16AppConfigurationV13currentLocaleSSvg",
+                "mangledName": "$s14FleksyAppsCore16AppConfigurationV13currentLocaleSSvg",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "availableLocales",
+            "printedName": "availableLocales",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore16AppConfigurationV16availableLocalesSaySSGvp",
+            "mangledName": "$s14FleksyAppsCore16AppConfigurationV16availableLocalesSaySSGvp",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore16AppConfigurationV16availableLocalesSaySSGvg",
+                "mangledName": "$s14FleksyAppsCore16AppConfigurationV16availableLocalesSaySSGvg",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currentLocale:availableLocales:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppConfiguration",
+                "printedName": "FleksyAppsCore.AppConfiguration",
+                "usr": "s:14FleksyAppsCore16AppConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FleksyAppsCore16AppConfigurationV13currentLocale16availableLocalesACSS_SaySSGtcfc",
+            "mangledName": "$s14FleksyAppsCore16AppConfigurationV13currentLocale16availableLocalesACSS_SaySSGtcfc",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppConfiguration",
+                "printedName": "FleksyAppsCore.AppConfiguration",
+                "usr": "s:14FleksyAppsCore16AppConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppConfiguration",
+                "printedName": "FleksyAppsCore.AppConfiguration",
+                "usr": "s:14FleksyAppsCore16AppConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore16AppConfigurationV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14FleksyAppsCore16AppConfigurationV2eeoiySbAC_ACtFZ",
+            "moduleName": "FleksyAppsCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14FleksyAppsCore16AppConfigurationV",
+        "mangledName": "$s14FleksyAppsCore16AppConfigurationV",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppListener",
+        "printedName": "AppListener",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currentViewMode",
+            "printedName": "currentViewMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FleksyAppsCore.KeyboardAppViewMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyboardAppViewMode",
+                    "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                    "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore11AppListenerP15currentViewModeAA08KeyboarddgH0OSgvp",
+            "mangledName": "$s14FleksyAppsCore11AppListenerP15currentViewModeAA08KeyboarddgH0OSgvp",
+            "moduleName": "FleksyAppsCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FleksyAppsCore.KeyboardAppViewMode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyboardAppViewMode",
+                        "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                        "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore11AppListenerP15currentViewModeAA08KeyboarddgH0OSgvg",
+                "mangledName": "$s14FleksyAppsCore11AppListenerP15currentViewModeAA08KeyboarddgH0OSgvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppListener>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppListener>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardAppViewMode",
+                "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11AppListenerP4show4modeyAA08KeyboardD8ViewModeO_tF",
+            "mangledName": "$s14FleksyAppsCore11AppListenerP4show4modeyAA08KeyboardD8ViewModeO_tF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppListener>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(mode:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardAppViewMode",
+                "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11AppListenerP4show4mode8animatedyAA08KeyboardD8ViewModeO_SbtF",
+            "mangledName": "$s14FleksyAppsCore11AppListenerP4show4mode8animatedyAA08KeyboardD8ViewModeO_SbtF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppListener>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11AppListenerP4showyyF",
+            "mangledName": "$s14FleksyAppsCore11AppListenerP4showyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppListener>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11AppListenerP4show8animatedySb_tF",
+            "mangledName": "$s14FleksyAppsCore11AppListenerP4show8animatedySb_tF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppListener>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hide",
+            "printedName": "hide()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11AppListenerP4hideSbyF",
+            "mangledName": "$s14FleksyAppsCore11AppListenerP4hideSbyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppListener>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hide",
+            "printedName": "hide(animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11AppListenerP4hide8animatedS2b_tF",
+            "mangledName": "$s14FleksyAppsCore11AppListenerP4hide8animatedS2b_tF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppListener>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14FleksyAppsCore11AppListenerP",
+        "mangledName": "$s14FleksyAppsCore11AppListenerP",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppTextFieldDelegate",
+        "printedName": "AppTextFieldDelegate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "placeholder",
+            "printedName": "placeholder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP11placeholderSSSgvp",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP11placeholderSSSgvp",
+            "moduleName": "FleksyAppsCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP11placeholderSSSgvg",
+                "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP11placeholderSSSgvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "initialText",
+            "printedName": "initialText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP07initialE0SSSgvp",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP07initialE0SSSgvp",
+            "moduleName": "FleksyAppsCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP07initialE0SSSgvg",
+                "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP07initialE0SSSgvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "returnKeyType",
+            "printedName": "returnKeyType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIReturnKeyType",
+                "printedName": "UIKit.UIReturnKeyType",
+                "usr": "c:@E@UIReturnKeyType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP13returnKeyTypeSo08UIReturniJ0Vvp",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP13returnKeyTypeSo08UIReturniJ0Vvp",
+            "moduleName": "FleksyAppsCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIReturnKeyType",
+                    "printedName": "UIKit.UIReturnKeyType",
+                    "usr": "c:@E@UIReturnKeyType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP13returnKeyTypeSo08UIReturniJ0Vvg",
+                "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP13returnKeyTypeSo08UIReturniJ0Vvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keyboardType",
+            "printedName": "keyboardType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIKeyboardType",
+                "printedName": "UIKit.UIKeyboardType",
+                "usr": "c:@E@UIKeyboardType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP12keyboardTypeSo010UIKeyboardI0Vvp",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP12keyboardTypeSo010UIKeyboardI0Vvp",
+            "moduleName": "FleksyAppsCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIKeyboardType",
+                    "printedName": "UIKit.UIKeyboardType",
+                    "usr": "c:@E@UIKeyboardType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP12keyboardTypeSo010UIKeyboardI0Vvg",
+                "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP12keyboardTypeSo010UIKeyboardI0Vvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "focusOnAppear",
+            "printedName": "focusOnAppear",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP13focusOnAppearSbvp",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP13focusOnAppearSbvp",
+            "moduleName": "FleksyAppsCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP13focusOnAppearSbvg",
+                "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP13focusOnAppearSbvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onAppIconAction",
+            "printedName": "onAppIconAction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP02onD10IconActionyyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP02onD10IconActionyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCloseAction",
+            "printedName": "onCloseAction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP13onCloseActionyyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP13onCloseActionyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTextDidChange",
+            "printedName": "onTextDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP02onE9DidChangeyySSSgF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP02onE9DidChangeyySSSgF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onReturnKeyAction",
+            "printedName": "onReturnKeyAction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP17onReturnKeyActionyySSSgF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP17onReturnKeyActionyySSSgF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textFieldDidBeginEditing",
+            "printedName": "textFieldDidBeginEditing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP04textF15DidBeginEditingyyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP04textF15DidBeginEditingyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textFieldDidEndEditing",
+            "printedName": "textFieldDidEndEditing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP04textF13DidEndEditingyyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP04textF13DidEndEditingyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "placeholder",
+            "printedName": "placeholder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE11placeholderSSSgvp",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE11placeholderSSSgvp",
+            "moduleName": "FleksyAppsCore",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE11placeholderSSSgvg",
+                "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE11placeholderSSSgvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "initialText",
+            "printedName": "initialText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE07initialE0SSSgvp",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE07initialE0SSSgvp",
+            "moduleName": "FleksyAppsCore",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE07initialE0SSSgvg",
+                "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE07initialE0SSSgvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "returnKeyType",
+            "printedName": "returnKeyType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIReturnKeyType",
+                "printedName": "UIKit.UIReturnKeyType",
+                "usr": "c:@E@UIReturnKeyType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE13returnKeyTypeSo08UIReturniJ0Vvp",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE13returnKeyTypeSo08UIReturniJ0Vvp",
+            "moduleName": "FleksyAppsCore",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIReturnKeyType",
+                    "printedName": "UIKit.UIReturnKeyType",
+                    "usr": "c:@E@UIReturnKeyType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE13returnKeyTypeSo08UIReturniJ0Vvg",
+                "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE13returnKeyTypeSo08UIReturniJ0Vvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keyboardType",
+            "printedName": "keyboardType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIKeyboardType",
+                "printedName": "UIKit.UIKeyboardType",
+                "usr": "c:@E@UIKeyboardType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE12keyboardTypeSo010UIKeyboardI0Vvp",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE12keyboardTypeSo010UIKeyboardI0Vvp",
+            "moduleName": "FleksyAppsCore",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIKeyboardType",
+                    "printedName": "UIKit.UIKeyboardType",
+                    "usr": "c:@E@UIKeyboardType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE12keyboardTypeSo010UIKeyboardI0Vvg",
+                "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE12keyboardTypeSo010UIKeyboardI0Vvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "focusOnAppear",
+            "printedName": "focusOnAppear",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE13focusOnAppearSbvp",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE13focusOnAppearSbvp",
+            "moduleName": "FleksyAppsCore",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE13focusOnAppearSbvg",
+                "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE13focusOnAppearSbvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onAppIconAction",
+            "printedName": "onAppIconAction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE02onD10IconActionyyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE02onD10IconActionyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBecomeFirstResponder",
+            "printedName": "onBecomeFirstResponder(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE22onBecomeFirstResponderyySSSgF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE22onBecomeFirstResponderyySSSgF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTextDidChange",
+            "printedName": "onTextDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE02onE9DidChangeyySSSgF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE02onE9DidChangeyySSSgF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResignFirstResponder",
+            "printedName": "onResignFirstResponder(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE22onResignFirstResponderyySSSgF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE22onResignFirstResponderyySSSgF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onReturnKeyAction",
+            "printedName": "onReturnKeyAction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE17onReturnKeyActionyySSSgF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE17onReturnKeyActionyySSSgF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textFieldDidBeginEditing",
+            "printedName": "textFieldDidBeginEditing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE04textF15DidBeginEditingyyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE04textF15DidBeginEditingyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textFieldDidEndEditing",
+            "printedName": "textFieldDidEndEditing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE04textF13DidEndEditingyyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE04textF13DidEndEditingyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP",
+        "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP",
+        "moduleName": "FleksyAppsCore",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppTheme",
+        "printedName": "AppTheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "foreground",
+            "printedName": "foreground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore8AppThemeV10foregroundSo7UIColorCvp",
+            "mangledName": "$s14FleksyAppsCore8AppThemeV10foregroundSo7UIColorCvp",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore8AppThemeV10foregroundSo7UIColorCvg",
+                "mangledName": "$s14FleksyAppsCore8AppThemeV10foregroundSo7UIColorCvg",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore8AppThemeV10backgroundSo7UIColorCvp",
+            "mangledName": "$s14FleksyAppsCore8AppThemeV10backgroundSo7UIColorCvp",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore8AppThemeV10backgroundSo7UIColorCvg",
+                "mangledName": "$s14FleksyAppsCore8AppThemeV10backgroundSo7UIColorCvg",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keyBackground",
+            "printedName": "keyBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore8AppThemeV13keyBackgroundSo7UIColorCvp",
+            "mangledName": "$s14FleksyAppsCore8AppThemeV13keyBackgroundSo7UIColorCvp",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore8AppThemeV13keyBackgroundSo7UIColorCvg",
+                "mangledName": "$s14FleksyAppsCore8AppThemeV13keyBackgroundSo7UIColorCvg",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonBackground",
+            "printedName": "buttonBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore8AppThemeV16buttonBackgroundSo7UIColorCvp",
+            "mangledName": "$s14FleksyAppsCore8AppThemeV16buttonBackgroundSo7UIColorCvp",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore8AppThemeV16buttonBackgroundSo7UIColorCvg",
+                "mangledName": "$s14FleksyAppsCore8AppThemeV16buttonBackgroundSo7UIColorCvg",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accent",
+            "printedName": "accent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore8AppThemeV6accentSo7UIColorCvp",
+            "mangledName": "$s14FleksyAppsCore8AppThemeV6accentSo7UIColorCvp",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore8AppThemeV6accentSo7UIColorCvg",
+                "mangledName": "$s14FleksyAppsCore8AppThemeV6accentSo7UIColorCvg",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gradient",
+            "printedName": "gradient",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIColor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore8AppThemeV8gradientSaySo7UIColorCGvp",
+            "mangledName": "$s14FleksyAppsCore8AppThemeV8gradientSaySo7UIColorCGvp",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIColor]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore8AppThemeV8gradientSaySo7UIColorCGvg",
+                "mangledName": "$s14FleksyAppsCore8AppThemeV8gradientSaySo7UIColorCGvg",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "font",
+            "printedName": "font",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore8AppThemeV4fontSo6UIFontCvp",
+            "mangledName": "$s14FleksyAppsCore8AppThemeV4fontSo6UIFontCvp",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore8AppThemeV4fontSo6UIFontCvg",
+                "mangledName": "$s14FleksyAppsCore8AppThemeV4fontSo6UIFontCvg",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(foreground:background:keyBackground:buttonBackground:accent:gradient:font:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppTheme",
+                "printedName": "FleksyAppsCore.AppTheme",
+                "usr": "s:14FleksyAppsCore8AppThemeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIColor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FleksyAppsCore8AppThemeV10foreground10background13keyBackground06buttonI06accent8gradient4fontACSo7UIColorC_A4LSgSayALGSo6UIFontCtcfc",
+            "mangledName": "$s14FleksyAppsCore8AppThemeV10foreground10background13keyBackground06buttonI06accent8gradient4fontACSo7UIColorC_A4LSgSayALGSo6UIFontCtcfc",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(foreground:background:accent:gradient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppTheme",
+                "printedName": "FleksyAppsCore.AppTheme",
+                "usr": "s:14FleksyAppsCore8AppThemeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIColor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14FleksyAppsCore8AppThemeV10foreground10background6accent8gradientACSo7UIColorC_A2ISgSayAIGtcfc",
+            "mangledName": "$s14FleksyAppsCore8AppThemeV10foreground10background6accent8gradientACSo7UIColorC_A2ISgSayAIGtcfc",
+            "moduleName": "FleksyAppsCore",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14FleksyAppsCore8AppThemeV",
+        "mangledName": "$s14FleksyAppsCore8AppThemeV",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyboardApp",
+        "printedName": "KeyboardApp",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(listener:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppListener",
+                "printedName": "FleksyAppsCore.AppListener",
+                "usr": "s:14FleksyAppsCore11AppListenerP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppConfiguration",
+                "printedName": "FleksyAppsCore.AppConfiguration",
+                "usr": "s:14FleksyAppsCore16AppConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppP10initialize8listener13configurationyAA0E8Listener_p_AA0E13ConfigurationVtF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppP10initialize8listener13configurationyAA0E8Listener_p_AA0E13ConfigurationVtF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dispose",
+            "printedName": "dispose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppP7disposeyyF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppP7disposeyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "defaultViewMode",
+            "printedName": "defaultViewMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardAppViewMode",
+                "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore11KeyboardAppP15defaultViewModeAA0degH0Ovp",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppP15defaultViewModeAA0degH0Ovp",
+            "moduleName": "FleksyAppsCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyboardAppViewMode",
+                    "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                    "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore11KeyboardAppP15defaultViewModeAA0degH0Ovg",
+                "mangledName": "$s14FleksyAppsCore11KeyboardAppP15defaultViewModeAA0degH0Ovg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(viewMode:theme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardAppViewMode",
+                "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppTheme",
+                "printedName": "FleksyAppsCore.AppTheme",
+                "usr": "s:14FleksyAppsCore8AppThemeV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppP4open8viewMode5themeSo6UIViewCSgAA0de4ViewH0O_AA0E5ThemeVtF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppP4open8viewMode5themeSo6UIViewCSgAA0de4ViewH0O_AA0E5ThemeVtF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppP5closeyyF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppP5closeyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onConfigurationChanged",
+            "printedName": "onConfigurationChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppConfiguration",
+                "printedName": "FleksyAppsCore.AppConfiguration",
+                "usr": "s:14FleksyAppsCore16AppConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppP22onConfigurationChangedyyAA0eG0VF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppP22onConfigurationChangedyyAA0eG0VF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onThemeChanged",
+            "printedName": "onThemeChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppTheme",
+                "printedName": "FleksyAppsCore.AppTheme",
+                "usr": "s:14FleksyAppsCore8AppThemeV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppP14onThemeChangedyyAA0eG0VF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppP14onThemeChangedyyAA0eG0VF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appIcon",
+            "printedName": "appIcon()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppP7appIconSo7UIImageCSgyF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppP7appIconSo7UIImageCSgyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "appId",
+            "printedName": "appId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore11KeyboardAppP5appIdSSvp",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppP5appIdSSvp",
+            "moduleName": "FleksyAppsCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore11KeyboardAppP5appIdSSvg",
+                "mangledName": "$s14FleksyAppsCore11KeyboardAppP5appIdSSvg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "dispose",
+            "printedName": "dispose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppPAAE7disposeyyF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppPAAE7disposeyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppPAAE5closeyyF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppPAAE5closeyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onConfigurationChanged",
+            "printedName": "onConfigurationChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppConfiguration",
+                "printedName": "FleksyAppsCore.AppConfiguration",
+                "usr": "s:14FleksyAppsCore16AppConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppPAAE22onConfigurationChangedyyAA0eG0VF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppPAAE22onConfigurationChangedyyAA0eG0VF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "defaultViewMode",
+            "printedName": "defaultViewMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardAppViewMode",
+                "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14FleksyAppsCore11KeyboardAppPAAE15defaultViewModeAA0degH0Ovp",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppPAAE15defaultViewModeAA0degH0Ovp",
+            "moduleName": "FleksyAppsCore",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyboardAppViewMode",
+                    "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                    "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FleksyAppsCore11KeyboardAppPAAE15defaultViewModeAA0degH0Ovg",
+                "mangledName": "$s14FleksyAppsCore11KeyboardAppPAAE15defaultViewModeAA0degH0Ovg",
+                "moduleName": "FleksyAppsCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+                "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14FleksyAppsCore11KeyboardAppP",
+        "mangledName": "$s14FleksyAppsCore11KeyboardAppP",
+        "moduleName": "FleksyAppsCore",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TopBarMode",
+        "printedName": "TopBarMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FleksyAppsCore.TopBarMode.Type) -> FleksyAppsCore.TopBarMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TopBarMode",
+                    "printedName": "FleksyAppsCore.TopBarMode",
+                    "usr": "s:14FleksyAppsCore10TopBarModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FleksyAppsCore.TopBarMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TopBarMode",
+                        "printedName": "FleksyAppsCore.TopBarMode",
+                        "usr": "s:14FleksyAppsCore10TopBarModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14FleksyAppsCore10TopBarModeO7defaultyA2CmF",
+            "mangledName": "$s14FleksyAppsCore10TopBarModeO7defaultyA2CmF",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hidden",
+            "printedName": "hidden",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FleksyAppsCore.TopBarMode.Type) -> FleksyAppsCore.TopBarMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TopBarMode",
+                    "printedName": "FleksyAppsCore.TopBarMode",
+                    "usr": "s:14FleksyAppsCore10TopBarModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FleksyAppsCore.TopBarMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TopBarMode",
+                        "printedName": "FleksyAppsCore.TopBarMode",
+                        "usr": "s:14FleksyAppsCore10TopBarModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14FleksyAppsCore10TopBarModeO6hiddenyA2CmF",
+            "mangledName": "$s14FleksyAppsCore10TopBarModeO6hiddenyA2CmF",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appTextField",
+            "printedName": "appTextField",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FleksyAppsCore.TopBarMode.Type) -> (FleksyAppsCore.AppTextFieldDelegate, Swift.Bool) -> FleksyAppsCore.TopBarMode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyAppsCore.AppTextFieldDelegate, Swift.Bool) -> FleksyAppsCore.TopBarMode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TopBarMode",
+                        "printedName": "FleksyAppsCore.TopBarMode",
+                        "usr": "s:14FleksyAppsCore10TopBarModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(delegate: FleksyAppsCore.AppTextFieldDelegate, showCloseButton: Swift.Bool)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AppTextFieldDelegate",
+                            "printedName": "FleksyAppsCore.AppTextFieldDelegate",
+                            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FleksyAppsCore.TopBarMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TopBarMode",
+                        "printedName": "FleksyAppsCore.TopBarMode",
+                        "usr": "s:14FleksyAppsCore10TopBarModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14FleksyAppsCore10TopBarModeO12appTextFieldyAcA03ApphI8Delegate_p_SbtcACmF",
+            "mangledName": "$s14FleksyAppsCore10TopBarModeO12appTextFieldyAcA03ApphI8Delegate_p_SbtcACmF",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14FleksyAppsCore10TopBarModeO",
+        "mangledName": "$s14FleksyAppsCore10TopBarModeO",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyboardAppViewMode",
+        "printedName": "KeyboardAppViewMode",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Height",
+            "printedName": "Height",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "default",
+                "printedName": "default",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyAppsCore.KeyboardAppViewMode.Height.Type) -> FleksyAppsCore.KeyboardAppViewMode.Height",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Height",
+                        "printedName": "FleksyAppsCore.KeyboardAppViewMode.Height",
+                        "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyAppsCore.KeyboardAppViewMode.Height.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Height",
+                            "printedName": "FleksyAppsCore.KeyboardAppViewMode.Height",
+                            "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO7defaultyA2EmF",
+                "mangledName": "$s14FleksyAppsCore19KeyboardAppViewModeO6HeightO7defaultyA2EmF",
+                "moduleName": "FleksyAppsCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "automatic",
+                "printedName": "automatic",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyAppsCore.KeyboardAppViewMode.Height.Type) -> FleksyAppsCore.KeyboardAppViewMode.Height",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Height",
+                        "printedName": "FleksyAppsCore.KeyboardAppViewMode.Height",
+                        "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyAppsCore.KeyboardAppViewMode.Height.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Height",
+                            "printedName": "FleksyAppsCore.KeyboardAppViewMode.Height",
+                            "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO9automaticyA2EmF",
+                "mangledName": "$s14FleksyAppsCore19KeyboardAppViewModeO6HeightO9automaticyA2EmF",
+                "moduleName": "FleksyAppsCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Height",
+                    "printedName": "FleksyAppsCore.KeyboardAppViewMode.Height",
+                    "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Height",
+                    "printedName": "FleksyAppsCore.KeyboardAppViewMode.Height",
+                    "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14FleksyAppsCore19KeyboardAppViewModeO6HeightO2eeoiySbAE_AEtFZ",
+                "moduleName": "FleksyAppsCore",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO9hashValueSivp",
+                "mangledName": "$s14FleksyAppsCore19KeyboardAppViewModeO6HeightO9hashValueSivp",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO9hashValueSivg",
+                    "mangledName": "$s14FleksyAppsCore19KeyboardAppViewModeO6HeightO9hashValueSivg",
+                    "moduleName": "FleksyAppsCore",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s14FleksyAppsCore19KeyboardAppViewModeO6HeightO4hash4intoys6HasherVz_tF",
+                "moduleName": "FleksyAppsCore",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO",
+            "mangledName": "$s14FleksyAppsCore19KeyboardAppViewModeO6HeightO",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frame",
+            "printedName": "frame",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FleksyAppsCore.KeyboardAppViewMode.Type) -> (FleksyAppsCore.TopBarMode, FleksyAppsCore.KeyboardAppViewMode.Height) -> FleksyAppsCore.KeyboardAppViewMode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyAppsCore.TopBarMode, FleksyAppsCore.KeyboardAppViewMode.Height) -> FleksyAppsCore.KeyboardAppViewMode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyboardAppViewMode",
+                        "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                        "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(barMode: FleksyAppsCore.TopBarMode, height: FleksyAppsCore.KeyboardAppViewMode.Height)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TopBarMode",
+                            "printedName": "FleksyAppsCore.TopBarMode",
+                            "usr": "s:14FleksyAppsCore10TopBarModeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Height",
+                            "printedName": "FleksyAppsCore.KeyboardAppViewMode.Height",
+                            "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FleksyAppsCore.KeyboardAppViewMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyboardAppViewMode",
+                        "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                        "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO5frameyAcA06TopBarG0O_AC6HeightOtcACmF",
+            "mangledName": "$s14FleksyAppsCore19KeyboardAppViewModeO5frameyAcA06TopBarG0O_AC6HeightOtcACmF",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullCover",
+            "printedName": "fullCover",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FleksyAppsCore.KeyboardAppViewMode.Type) -> (FleksyAppsCore.KeyboardAppViewMode.Height) -> FleksyAppsCore.KeyboardAppViewMode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyAppsCore.KeyboardAppViewMode.Height) -> FleksyAppsCore.KeyboardAppViewMode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyboardAppViewMode",
+                        "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                        "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(height: FleksyAppsCore.KeyboardAppViewMode.Height)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Height",
+                            "printedName": "FleksyAppsCore.KeyboardAppViewMode.Height",
+                            "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO6HeightO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FleksyAppsCore.KeyboardAppViewMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyboardAppViewMode",
+                        "printedName": "FleksyAppsCore.KeyboardAppViewMode",
+                        "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO9fullCoveryA2C6HeightO_tcACmF",
+            "mangledName": "$s14FleksyAppsCore19KeyboardAppViewModeO9fullCoveryA2C6HeightO_tcACmF",
+            "moduleName": "FleksyAppsCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14FleksyAppsCore19KeyboardAppViewModeO",
+        "mangledName": "$s14FleksyAppsCore19KeyboardAppViewModeO",
+        "moduleName": "FleksyAppsCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/git\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FleksyAppsCore\/IntermediateBuildFilesPath\/FleksyAppsCore.build\/Release-iphoneos\/FleksyAppsCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 31,
+      "value": "\"FleksyAppsCore_FleksyAppsCore\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FleksyAppsCore\/IntermediateBuildFilesPath\/FleksyAppsCore.build\/Release-iphoneos\/FleksyAppsCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "Array",
+      "offset": 973,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FleksyAppsCore\/IntermediateBuildFilesPath\/FleksyAppsCore.build\/Release-iphoneos\/FleksyAppsCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1500,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/.build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FleksyAppsCore\/IntermediateBuildFilesPath\/FleksyAppsCore.build\/Release-iphoneos\/FleksyAppsCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1652,
+      "length": 59,
+      "value": "\"unable to find bundle named FleksyAppsCore_FleksyAppsCore\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/FleksyAppsCore\/AppConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/FleksyAppsCore\/AppConfiguration.swift",
+      "kind": "Array",
+      "offset": 586,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/FleksyAppsCore\/AppTextFieldDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3938,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/FleksyAppsCore\/AppTheme.swift",
+      "kind": "Array",
+      "offset": 1855,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/FleksyAppsCore\/AppTheme.swift",
+      "kind": "Array",
+      "offset": 2853,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/FleksyAppsCore\/KeyboardAppViewMode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1079,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
