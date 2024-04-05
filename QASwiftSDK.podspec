@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'QASwiftSDK'
-  spec.version = '0.7.1'
+  spec.version = '0.7.2'
   spec.summary = 'QuantActions SDK'
   spec.description = 'The QuantActions SDK allows developers to add all the QuantActions functions to an iOS app including: Automatic data collection, Access processed metrics and insights from the Tap Intelligence Engine (TIE), Enabling device communication, Subscribe to different cohorts.'
  
@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
   spec.swift_versions = ['5']
 
   spec.dependency 'RealmSwift', '~> 10.42.1'
-  spec.dependency 'QuantActionsExtraFrameworks', '~> 1.0'
+  spec.dependency 'QuantActionsExtraFrameworks'
 
 end
