@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
   spec.swift_versions = ['5']
 
   spec.dependency 'RealmSwift', '~> 10.42.1'
-  spec.dependency 'QuantActionsExtraFrameworks'
+  spec.dependency 'QuantActionsExtraFrameworks', '~> 1.0'
 
 end
