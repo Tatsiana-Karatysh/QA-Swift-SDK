@@ -4,8 +4,8 @@ Pod::Spec.new do |spec|
   spec.summary = 'QuantActions SDK'
   spec.description = 'The QuantActions SDK allows developers to add all the QuantActions functions to an iOS app including: Automatic data collection, Access processed metrics and insights from the Tap Intelligence Engine (TIE), Enabling device communication, Subscribe to different cohorts.'
  
-  spec.homepage = 'https://github.com/QuantActions/QA-Swift-SDK'
-  spec.source = { :git => 'https://github.com/QuantActions/QA-Swift-SDK.git', :tag => spec.version }
+  spec.homepage = 'https://github.com/Tatsiana-Karatysh/QA-Swift-SDK'
+  spec.source = { :git => 'https://github.com/Tatsiana-Karatysh/QA-Swift-SDK.git', :tag => spec.version }
   spec.documentation_url = 'https://quantactions.github.io/QA-Swift-SDK/documentation/quantactionssdk/'
   spec.authors = { 'QuantActions' => 'development@quantactions.com' }
   spec.license = { :type => "CC-NC-ND", :file => "LICENSE" }

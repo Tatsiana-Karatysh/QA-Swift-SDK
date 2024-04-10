@@ -9,7 +9,7 @@ The QuantActions SDK for iOS allows developers to add all the QuantActions funct
 ## Installation
 QASwiftSDK can be installed with the Swift Package Manager:
 ```
-https://github.com/QuantActions/QA-Swift-SDK
+https://github.com/Tatsiana-Karatysh/QA-Swift-SDK
 ```
 
 ## Full documentation
