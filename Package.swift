@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "QASwiftSDK",
+            type: .dynamic,
             targets: ["QASwiftSDK", "QuantActionsSDK"]
         ),
     ],
